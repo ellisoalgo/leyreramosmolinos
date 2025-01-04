@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Terapia.scss";
+import { Link } from "react-router-dom";
 
 function Terapia() {
   return (
@@ -10,7 +11,7 @@ function Terapia() {
             En un entorno seguro y confidencial, la terapia te ofrece un espacio para explorar tu interior, mejorar tus relaciones y aprender a gestionar el estrés, la ansiedad o cualquier dificultad que te impida avanzar
             A través de la terapia, puedes desbloquear tu potencial, desarrollar habilidades emocionales y alcanzar un equilibrio mental y emocional que te permita vivir de manera más plena y consciente. No estás solo en este proceso, la terapia te acompaña en cada paso hacia tu bienestar.
         </p>
-        <a href="">Contacta conmigo</a>
+        <Link to="/contacto">Contacta conmigo</Link>
     </div>
   )
 }

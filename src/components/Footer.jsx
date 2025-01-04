@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Footer.scss";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -21,11 +22,11 @@ function Footer() {
         <div>
             <p>Secciones</p>
             <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Sobre mí</a></li>
-                <li><a href="">Contacto</a></li>
-                <li><a href="">Reserva tu cita</a></li>
-                <li><a href="">Términos Legales y Privacidad</a></li>
+                <li><Link to="/">Inicio</Link></li>
+                <li><Link to="/sobre-mi">Sobre mí</Link></li>
+                <li><Link to="/contacto">Contacto</Link></li>
+                <li><a href="https://calendly.com/leyreramospsico">Reserva tu cita</a></li>
+                <li><Link to="/terminos-legales-privacidad">Términos Legales y Privacidad</Link></li>
             </ul>
         </div>
         <div>
