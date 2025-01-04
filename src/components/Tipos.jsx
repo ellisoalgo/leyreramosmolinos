@@ -1,9 +1,11 @@
 import React from 'react'
 import "../styles/Tipos.scss";
+import { Link } from "react-router-dom";
+
 
 function Tipos() {
   return (
-    <div>
+    <div id='tipos-de-terapia'>
         <h2>Tipos de terapia</h2>
         <div>
             <img src="" alt="" />

@@ -13,7 +13,7 @@ import Main from './Main.jsx'
 
 function App() {
   return (
-    <>
+    <body className="body">
       <Header/>
       <Routes>
         <Route path='/' element={ <Main/> }/>
@@ -25,7 +25,7 @@ function App() {
       </Routes>
       <Cta/>
       <Footer/>
-    </>
+    </body>
   )
 }
 
