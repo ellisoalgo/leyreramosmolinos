@@ -1,0 +1,39 @@
+.about{
+
+    padding: 48px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+    &-img{
+        height: 288px;
+    }
+
+    &-head{
+
+        padding-top: 16px;
+
+        &-title{
+
+            font: var(--h2-xs-font);
+            color: var(--grey03);
+
+        }
+
+        &-subtitle{
+
+            font: var(--p1-xs-font);
+            color: var(--primary);
+            padding-top: 16px;
+
+        }
+    }
+
+    &-text{
+        font: var(--p1-xs-font);
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}

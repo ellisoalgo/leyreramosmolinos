@@ -3,6 +3,7 @@ import '../styles/var.scss'
 import '../styles/Header.scss'
 import { Link } from "react-router-dom";
 import Menu from '../images/menu.svg';
+import Close from '../images/close.svg'
 import LogoXsBlack from '../images/logo-black-xs.svg'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import HamburgerAnimation from '../images/Animation - 1736001391910.json'
@@ -22,13 +23,16 @@ function Header() {
     //   lottieRef.current.playSegments([lottieRef.current.totalFrames, 0], true);
     // }
   };
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
 
   return (
     <header className='header'>
         <img src={LogoXsBlack} alt="LRM logo" className='header-logo'/>
         <nav className='header-nav'>
             <button className='header-nav_hamburger' onClick={toggleMenu}>
-              <img src={Menu} alt="" className='header-nav_hamburger_icon'/>
+              <img src={isMenuOpen ? Close : Menu} alt="" className='header-nav_hamburger_icon'/>
             </button>
             {/* <DotLottieReact 
               src={HamburgerAnimation}  // Add the correct Lottie file URL
@@ -40,22 +44,22 @@ function Header() {
             <div className={`menu ${isMenuOpen ? "active" : ""}`}>
               <ul className='menu_list'>
                 <li>
-                  <button className='menu_list-btn'>
+                  <button className='menu_list-btn' onClick={closeMenu}>
                     <Link to="/">Inicio</Link>
                   </button>
                 </li>
                 <li>
-                  <button className='menu_list-btn'>
+                  <button className='menu_list-btn' onClick={closeMenu}>
                     <Link to="/sobre-mi">Sobre mí</Link>
                   </button>
                 </li>
                 <li>
-                  <button className='menu_list-btn'>
+                  <button className='menu_list-btn' onClick={closeMenu}>
                     <Link to="/contacto">Contacto</Link>
                   </button>
                 </li>
               </ul>
-              <button className='reserva'><a href='https://calendly.com/leyreramospsico'>Reserva tu cita</a></button>
+              <button className='reservar'><a href='https://calendly.com/leyreramospsico' target="_blank">Reserva tu cita</a></button>
             </div>
         </nav>
     </header>

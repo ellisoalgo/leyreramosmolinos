@@ -7,20 +7,21 @@ function Contacto() {
   return (
     <>
         <Hero/>
-        <section>
-            <img src="" alt="" />
-            <div>
-                <h2>Contacta conmigo</h2>
-                <p>Estoy aquí para escucharte. Si tienes preguntas o necesitas más información, no dudes en escribirme.</p>
-                <form action="">
-                    <label htmlFor="name">Nombre</label>
-                    <input type="text" name="name" id="name" />
+        <section className='contact'>
+            <img src="" alt="" className='contact-img'/>
+            <div className='contact-text'>
+                <h2 className='contact-text_title'>Contacta conmigo</h2>
+                <p className='contact-text_text'>Estoy aquí para escucharte. Si tienes preguntas o necesitas más información, no dudes en escribirme.</p>
+                <form action="" className='contact-text_form'>
+                    <input type="text" name="name" id="name" className='contact-text_form-input'/>
+                    <label htmlFor="contactType">¿Prefieres que te contacte por teléfono o por correo electrónico?</label>
+                    <input type="radio" name="correo" id="contactType" />
                     <label htmlFor="email">Email</label>
-                    <input type="email" name="email" id="email" />
+                    <input type="email" name="email" id="email" className='contact-text_form-input'/>
                     <label htmlFor="phone">Teléfono</label>
-                    <input type="tel" name="phone" id="phone" />
+                    <input type="tel" name="phone" id="phone" className='contact-text_form-input'/>
                     <label htmlFor="msg">Mensaje</label>
-                    <input type="text" name="msg" id="msg" />
+                    <input type="text" name="msg" id="msg" className='contact-text_form-input'/>
                     <button type="submit">Enviar</button>
                 </form>
             </div>
@@ -39,7 +40,6 @@ function Contacto() {
                 {/* embed maps */}
             </div>
         </section>
-        <Cta/>
     </>
   )
 }

@@ -1,0 +1,52 @@
+.test{
+
+    padding: 48px 16px;
+    
+
+    &-h2{
+        font: var(--h2-xs-font);
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    &-carrousel{
+        padding-top: 16px;
+        display: flex;
+        gap: 16px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+
+
+        &_card{
+            flex-shrink: 0;
+            width: 288px;
+            height: fit-content;
+            background-color: var(--secondary);
+            border-radius: 16px;
+            padding: 24px 16px;
+
+            &-block{
+                display: flex;
+                flex-direction: column-reverse;
+                border-bottom: 1px solid var(--primary);
+                padding-bottom: 16px;
+                gap: 12px;
+                margin-bottom: 16px;
+
+                &_name{
+                    font: var(--h3-xs-font);
+                    text-align: center;
+
+                }
+                &_img{
+                    height: 40px;
+                }
+            }
+
+            &-text{
+                font: var(--p1-xs-font);
+                text-align: center;
+            }
+        }
+    }
+}

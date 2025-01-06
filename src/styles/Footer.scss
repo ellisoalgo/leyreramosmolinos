@@ -1,0 +1,102 @@
+.footer{
+
+    &-info{
+
+        background-color: var(--grey03);
+        padding: 48px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    
+        &-logo{
+
+            height: 40px;
+        }
+    
+        &-add{
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            &_title{
+
+                font: var(--h4-xs-font);
+                text-align: center;
+                color: var(--base);
+    
+            }
+    
+            &_links{
+    
+                font: var(--link-xs-font);
+                color: var(--grey01);
+                text-align: center;
+                text-decoration: none;
+                a:-webkit-any-link{
+                    color: var(--grey01);
+                }
+                a:visited{
+                    color: var(--grey01);
+                }
+    
+            }
+        }
+    
+        &-nav{
+    
+            &_title{
+
+                font: var(--h4-xs-font);
+                text-align: center;
+                color: var(--base);
+            }
+    
+            &_list{
+    
+                &-item{
+
+                    font: var(--link-xs-font);
+                    color: var(--grey01);
+                    text-align: center;
+                    text-decoration: none;
+                    a:visited{
+                        color: var(--grey01);
+                    }
+                }
+            }
+                
+        }
+    }
+
+    &-socials{
+
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        background-color: var(--grey04);
+
+        &_title{
+
+            font: var(--p2-xs-font);
+            color: var(--grey01);
+            height: 16px;
+
+        }
+
+        &_icon{
+            height: 40px;
+            width: 40px;
+            background-color: var(--grey03);
+            border-radius: 4px;
+            padding: 13px 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

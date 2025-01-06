@@ -1,12 +1,23 @@
 import React from 'react'
 import "../styles/Cta.scss";
+import ThinXs from '../images/estrecha_xs.svg'
 
 function Cta() {
   return (
-    <div>
-        <h5>TRANSFORMANDO <em>conflictos</em> EN <em>oportunidades</em> DE CRECIMIENTO</h5>
-        <a href="">Reserva tu cita</a>
-    </div>
+    <section>
+        <div className='cta'>
+          <p className='cta-p'>transformando <em className='cta-em'>conflictos</em>  en </p>
+          <p className='cta-p'><em className='cta-em'> oportunidades</em></p>
+          <p className='cta-p'> de crecimiento</p>
+          <button className='cta-btn'>
+            <a href="https://calendly.com/leyreramospsico" target="_blank">Reserva tu cita</a>
+          </button>
+        </div>
+        <div className='cta-imgs'>
+          <img src={ThinXs} alt="" className='cta-imgs_1'/>
+          <img src={ThinXs} alt="" className='cta-imgs_2'/>
+        </div>
+    </section>
   )
 }
 

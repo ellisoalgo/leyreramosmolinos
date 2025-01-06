@@ -1,0 +1,53 @@
+.tipos{
+
+    padding: 48px 16px;
+
+
+    &-h2{
+        font: var(--h2-xs-font);
+        text-align: center;
+        height: 36px;
+        margin-bottom: 16px;
+    }
+
+    &-cards{
+        margin-bottom: 16px;
+        display: flex;
+        gap: 16px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+
+        &_card{
+            flex-shrink: 0;
+            //height: 284px;
+            width: 288px;
+            border-radius: 16px;
+            background-color: var(--secondary);
+            padding: 24px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .card-img{
+                height: 48px;
+                width: 48px;
+                background-color: var(--base);
+                border-radius: 16px;
+                padding: 8px;
+                margin-bottom: 16px;
+            }
+
+            .card-h3{
+                font: var(--h3-xs-font);
+                text-align: center;
+
+            }
+
+            .card-text{
+                font: var(--p1-xs-font);
+                text-align: center;
+            }
+        }
+    }
+}

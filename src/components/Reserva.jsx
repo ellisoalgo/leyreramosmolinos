@@ -1,29 +1,35 @@
 import React from 'react'
 import "../styles/Reserva.scss";
+import Online from '../images/online.svg'
+import Presencial from '../images/handshake.svg'
 
 function Reserva() {
   return (
-    <div>
-        <h2>¿Te sientes preparado?</h2>
-        <p>Estoy aquí para acompañarte en cada paso, ofreciéndote la oportunidad de escucharte y redescubrirte.
+    <section className='reserva'>
+        <h2 className='reserva-h2'>¿Te sientes preparado?</h2>
+        <p className='reserva-text'>Estoy aquí para acompañarte en cada paso, ofreciéndote la oportunidad de escucharte y redescubrirte.
         </p>
-        <div>
-            <h3>Psicoterapia online</h3>
-            <p>Accede a la terapia desde la comodidad de tu hogar. Apto para personas que prefieren sesiones a distancia.</p>
-            <a href="https://calendly.com/leyreramospsico/psicoterapia-online">
-                <img src="" alt="" />
-                <span>Reserva tu cita online</span>
-            </a>
+        <div className='reserva-card'>
+            <h3 className='reserva-card_h3'>Psicoterapia online</h3>
+            <p className='reserva-card_text'>Accede a la terapia desde la comodidad de tu hogar. Apto para personas que prefieren sesiones a distancia.</p>
+            <button className='reserva-card_btn' >
+                <a href="https://calendly.com/leyreramospsico/psicoterapia-online" target="_blank" className='reserva-card_btn-link'>
+                    <img src={Online} alt="" className='reserva-card_btn-link_icon'/>
+                    <span className='reserva-card_btn-link_text'>Reserva tu cita online</span>
+                </a>
+            </button>
         </div>
-        <div>
-            <h3>Psicoterapia presencial</h3>
-            <p>Reunión conmigo en persona. Ideal para quienes prefieren interacciones cara a cara.</p>
-            <a href="https://calendly.com/leyreramospsico/psicoterapia-presencial">
-                <img src="" alt="" />
-                <span>Reserva tu cita presencial</span>
-            </a>
+        <div className='reserva-card'>
+            <h3 className='reserva-card_h3'>Psicoterapia presencial</h3>
+            <p className='reserva-card_text'>Reunión conmigo en persona. Ideal para quienes prefieren interacciones cara a cara.</p>
+            <button className='reserva-card_btn'>
+                <a href="https://calendly.com/leyreramospsico/psicoterapia-presencial" target="_blank" className='reserva-card_btn-link'>
+                    <img src={Presencial} alt="" className='reserva-card_btn-link_icon'/>
+                    <span className='reserva-card_btn-link_text'>Reserva tu cita presencial</span>
+                </a>
+            </button>
         </div>
-    </div>
+    </section>
   )
 }
 

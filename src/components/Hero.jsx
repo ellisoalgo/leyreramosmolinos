@@ -13,7 +13,11 @@ function Hero() {
             <button className='hero-btn_explora'>
               <Link to="#tipos-de-terapia">Explora las opciones</Link>
             </button>
-            <button href="https://calendly.com/leyreramospsico" className='hero-btn_reserva'>Reserva tu cita</button>
+            <button className='hero-btn_reserva'>
+              <a href="https://calendly.com/leyreramospsico" target="_blank">
+                Reserva tu cita
+              </a>
+            </button>
         </div>
         <div className='hero-imgs'>
           <img src={AnchaXs} alt="" className='hero-imgs_1'/>

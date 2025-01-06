@@ -38,6 +38,9 @@
             a:visited{
                 color: var(--primary);
             }
+            a:-webkit-any-link{
+                color: var(--primary);
+            }
         }
 
         &_reserva{
@@ -51,6 +54,9 @@
             text-align: center;
                 
             a:visited{
+                color: var(--base);
+            }
+            a:-webkit-any-link{
                 color: var(--base);
             }
         }
