@@ -1,0 +1,80 @@
+.contact{
+
+    padding: 48px 16px;
+
+    &-img{
+        margin-bottom: 16px;
+        height: 288px;
+    }
+
+    &-text{
+
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+
+        &_title{
+            font: var(--h2-xs-font);
+            color: var(--grey03);
+            height: 40px;
+        }
+
+        &_text{
+            font: var(--p1-xs-font);
+            color: var(--grey03);
+
+        }
+
+        &_form{
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px;
+
+            &-field{
+
+                &_input{
+
+                    height: 56px;
+                    width: 288px;
+                    padding: 16px;
+
+                }
+
+                &_label{
+
+                }
+            }
+
+            &-submit{
+
+            }
+        }
+    }
+}
+
+.address{
+
+    &_links{
+
+        &-h2{
+
+        }
+
+        &-p{
+
+        }
+
+        &-link{
+
+        }
+    }
+
+    &_map{
+
+    }
+
+}
