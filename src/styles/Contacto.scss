@@ -35,46 +35,147 @@
             gap: 16px;
 
             &-field{
-
-                &_input{
-
-                    height: 56px;
-                    width: 288px;
-                    padding: 16px;
-
-                }
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+                gap: 16px;
+                font: var(--p2-md);  
 
                 &_label{
+                    font: var(--p1-xs-font);
+                    color: var(--grey03);
+                    text-wrap: wrap;
 
+                    &-link{
+                        color: var(--primary);
+                        text-decoration: underline;
+                    }
                 }
             }
 
-            &-submit{
+            &-radio{
 
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+
+                &_opt{
+                    height: 56px;
+                    width: 100%;
+                    padding: 8px 16px;
+                    align-items: center;
+                    display: flex;
+                    gap: 16px;
+                }
+            }
+
+            &-check{
+                height: 56px;
+                display: flex;
+                align-items: center;
+                gap: 16px;
+            }
+
+
+            &-submit{
+                height: 40px;
+                width: 100%;
+                padding: 8px 16px;
+                border: none;
+                border-radius: 4px;
+                background-color: var(--primary);
+                font: var(--md-btn);
+                color: var(--base);
+                text-align: center;         
+                a:visited{
+                    color: var(--base);
+                }
             }
         }
     }
+
+    md-outlined-text-field, md-radio, md-checkbox{
+        --md-outlined-text-field-input-text-font: var(--p2-md);
+        --md-outlined-text-field-input-text-color: var(--grey03);
+        --md-outlined-text-field-container-color: #ffffff;
+        --md-outlined-text-field-focus-active-indicator-color: var(--grey01);
+        --_focus-outline-color: var(--grey01);
+        --_focus-label-text-color: var(--grey01);
+        --_focus-caret-color: var(--grey03);
+        --md-radio-unselected-color: var(--grey01);
+        --md-radio-selected-color: var(--primary);
+        --md-radio-label-font: var(--p2-md);
+        --md-radio-label-color: var(--grey01);
+        --md-radio-focus-color: var(--grey01);
+        --md-checkbox-unselected-color: var(--grey01);
+        --md-checkbox-selected-color: var(--primary);
+        --md-checkbox-label-font: var(--p2-md);
+        --md-checkbox-label-color: var(--grey01);
+    }
+    
+    md-outlined-text-field{
+        width: 100%;
+    }
+    
+    md-checkbox{
+        flex-shrink: 0;
+    }
 }
 
-.address{
+.sectAdd{
 
-    &_links{
+    padding: 48px 16px;
+    background-color: var(--secondary);
 
-        &-h2{
+    &-address{
 
+        background-color: var(--base);
+        padding: 16px;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    
+
+        &_links{
+
+            &-h2{
+
+                font: var(--h2-xs-font);
+                color: var(--grey03);
+                margin-bottom: 16px;
+            }
+
+            &-p{
+
+                font: var(--p1-xs-font);
+                margin-bottom: 4px;
+
+            }
+
+            &-btn{
+                height: 40px;
+                width: 100%;
+                padding: 8px 16px;
+                margin-top: 16px;
+                border: 0.8px solid var(--primary);
+                border-radius: 4px;
+                background-color: transparent;
+                font: var(--md-btn);
+                text-align: center; 
+                a:visited{
+                    color: var(--primary);
+                } 
+            }
         }
 
-        &-p{
+        &_map{
 
-        }
-
-        &-link{
-
+            height: 256px;
+            width: 256px;
         }
     }
-
-    &_map{
-
-    }
-
 }
+
