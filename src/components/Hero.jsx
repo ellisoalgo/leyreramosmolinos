@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Hero.scss'
-import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import AnchaXs from '../images/ancha_xs.svg'
 
 
@@ -11,7 +11,7 @@ function Hero() {
         <p className='hero-text'>Psicoterapeuta especializada en terapia sexual y de pareja</p>
         <div className='hero-btn'>
             <button className='hero-btn_explora'>
-              <Link to="#tipos-de-terapia">Explora las opciones</Link>
+              <HashLink smooth to="#tipos-de-terapia">Explora las opciones</HashLink>
             </button>
             <button className='hero-btn_reserva'>
               <a href="https://calendly.com/leyreramospsico" target="_blank">

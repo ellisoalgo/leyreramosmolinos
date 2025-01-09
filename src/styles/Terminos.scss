@@ -1,0 +1,49 @@
+.terminos{
+
+    padding: 112px 16px 48px 16px;
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &_h1{
+        font: var(--h1-xs-font);
+        color: var(--grey03);
+        text-align: center;
+        height: 80px;
+    }
+
+    &_group{
+
+        height: 138px;
+        width: 288px;
+        border-radius: 16px;
+        padding: 24px 16px;
+        background-color: var(--base);
+        //border: 1px solid var(--primary);
+        
+
+        &_gr{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+
+            &-img{
+                background-color: var(--secondary);
+                border-radius: 16px;
+                padding: 8px;
+                height: 46px;
+            }
+
+            &-h3{
+
+                font: var(--h3-xs-font);
+                color: var(--grey03);
+                height: 28px;
+            }
+        }
+    }
+}
