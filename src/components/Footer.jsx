@@ -16,7 +16,7 @@ function Footer() {
                 <div className='footer-info-add_links'>
                     <ul>
                         <li>
-                            <a href="" className='footer-info-add_links-address' target="_blank">
+                            <a href="https://maps.app.goo.gl/SZDsLjan8uCMw6q86" className='footer-info-add_links-address' target="_blank">
                                 Carrer de Casp 172, 2º A,
                                 08008 Barcelona, España.
                             </a>
@@ -27,7 +27,7 @@ function Footer() {
                             </a>
                         </li>
                         <li>
-                            <a href="" className='footer-info-add_links-phone' target="_blank">
+                            <a href="tel:0034614278073" className='footer-info-add_links-phone' target="_blank">
                                 614 278 073
                             </a>
                         </li>

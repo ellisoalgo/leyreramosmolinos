@@ -168,6 +168,9 @@
                 a:visited{
                     color: var(--primary);
                 } 
+                a:-webkit-any-link {
+                    color: var(--primary);
+                }
             }
         }
 
@@ -179,3 +182,6 @@
     }
 }
 
+.textArea{
+    height: 112px;
+}

@@ -35,7 +35,6 @@ function MasSobreMi() {
               </p>
             </div>
         </section>
-        <Cta/>
     </>
   )
 }

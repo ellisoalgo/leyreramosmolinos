@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 import Menu from '../images/menu.svg';
 import Close from '../images/close.svg'
 import LogoXsBlack from '../images/logo-black-xs.svg'
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import HamburgerAnimation from '../images/Animation - 1736001391910.json'
-
 
 function Header() {
     
@@ -16,31 +13,19 @@ function Header() {
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
-
-    // if (!isMenuOpen) {
-    //   lottieRef.current.play();
-    // } else {
-    //   lottieRef.current.playSegments([lottieRef.current.totalFrames, 0], true);
-    // }
   };
+
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
 
   return (
     <header className='header'>
-        <img src={LogoXsBlack} alt="LRM logo" className='header-logo'/>
+        <Link to='/'><img src={LogoXsBlack} alt="LRM logo" className='header-logo'/></Link>
         <nav className='header-nav'>
             <button className='header-nav_hamburger' onClick={toggleMenu}>
               <img src={isMenuOpen ? Close : Menu} alt="" className='header-nav_hamburger_icon'/>
             </button>
-            {/* <DotLottieReact 
-              src={HamburgerAnimation}  // Add the correct Lottie file URL
-              autoplay={false}  // Set autoplay to false so we can control playback
-              loop={false}  // Prevent looping
-              ref={lottieRef}  // Connect the reference to the component
-              onClick={toggleMenu}  // Add onClick event to trigger the menu toggle
-            /> */}
             <div className={`menu ${isMenuOpen ? "active" : ""}`}>
               <ul className='menu_list'>
                 <li>
