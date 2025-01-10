@@ -40,6 +40,9 @@
                 a:visited{
                     color: var(--grey01);
                 }
+                a:hover{
+                    text-decoration: underline;
+                }
     
             }
         }
@@ -63,6 +66,9 @@
                     text-decoration: none;
                     a:visited{
                         color: var(--grey01);
+                    }
+                    a:hover{
+                        text-decoration: underline;
                     }
                 }
             }

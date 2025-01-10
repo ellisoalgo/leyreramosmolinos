@@ -21,7 +21,15 @@
         padding: 24px 16px;
         background-color: var(--base);
         //border: 1px solid var(--primary);
-        
+
+        &:hover{
+            border: solid 2px var(--primary);
+        }
+
+        &:focus{
+            border: double 1px var(--primary);
+        }
+
 
         &_gr{
 
