@@ -19,7 +19,6 @@
 
         &_card{
             flex-shrink: 0;
-            //height: 284px;
             width: 288px;
             border-radius: 16px;
             background-color: var(--secondary);
@@ -27,8 +26,9 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            gap: 8px;
 
-
+            
             .card-img{
                 height: 48px;
                 width: 48px;
