@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "../styles/Terminos.scss";
 import Cta from './Cta.jsx'
 import { Link } from "react-router-dom";
@@ -8,6 +8,13 @@ import CookiesXs from '../images/cookies_xs.svg'
 import AvisoXs from '../images/aviso_xs.svg'
 
 function Terminos() {
+
+    const [activeLink, setActiveLink] = useState("text1");
+
+    const handleLinkClick = (target) => {
+        setActiveLink(target);
+    };
+    
   return (
     <>
         <section className='terminos'>
