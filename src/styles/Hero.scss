@@ -5,18 +5,21 @@
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    width: 100%;
 
     &-h1{
         font: var(--h1-xs-font);
         text-decoration: var(--h1-xs-text-decoration);
         text-align: center;
         color: var(--grey03);
+        height: 48px;
     }
 
     &-text{
         font: var(--p1-xs-font);
         text-align: center;
         color: var(--grey03);
+        height: 40px;
     }
 
     &-btn{
@@ -29,11 +32,12 @@
     }
 
     &-imgs{
-        width: 342px;
         padding-top: 24px;
-        margin: 0 -16px;
         display: flex;
         justify-content: space-between;
+        align-items: flex-start;
+        min-width: 342px;
+
 
         &_1, &_2{
             height: 100px;
@@ -44,5 +48,6 @@
             transform: scaleX(-1);
             opacity: 0;
         }
+
     }
 }
