@@ -12,6 +12,7 @@
         text-align: center;
         font-weight: 400;
         font-variant: small-caps;
+        color: var(--grey03);
 
     }
 
@@ -21,23 +22,12 @@
         font-variant: normal;
         font-size: 34px;
         line-height: 32px;
+        color: var(--grey03);
     }
 
     &-btn{
-        height: 40px;
+        padding-top: 16px;
         width: 100%;
-        padding: 8px 16px;
-        margin-top: 16px;
-        margin-bottom: 8px;
-        border: none;
-        border-radius: 4px;
-        background-color: var(--primary);
-        font: var(--md-btn);
-        color: var(--base);
-        text-align: center;         
-        a:visited{
-            color: var(--base);
-        }
     }
 
     &-imgs{

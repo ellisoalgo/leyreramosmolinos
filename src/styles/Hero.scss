@@ -25,49 +25,13 @@
         flex-direction: column;
         gap: 8px;
         padding: 16px 0;
-
-        &_explora{
-            height: 40px;
-            padding: 8px 16px;
-            border: 0.8px solid var(--primary);
-            border-radius: 4px;
-            background-color: transparent;
-            font: var(--md-btn);
-            text-align: center;
-                
-            a:visited{
-                color: var(--primary);
-            }
-            a:-webkit-any-link{
-                color: var(--primary);
-            }
-        }
-
-        &_reserva{
-            height: 40px;
-            padding: 8px 16px;
-            border: none;
-            border-radius: 4px;
-            background-color: var(--primary);
-            font: var(--md-btn);
-            color: var(--base);
-            text-align: center;
-                
-            a:visited{
-                color: var(--base);
-            }
-            a:-webkit-any-link{
-                color: var(--base);
-            }
-        }
+        width: 100%;
     }
 
     &-imgs{
         width: 342px;
         padding-top: 24px;
         margin: 0 -16px;
-        
-        
         display: flex;
         justify-content: space-between;
 

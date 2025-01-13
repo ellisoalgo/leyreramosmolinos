@@ -194,9 +194,9 @@ function Contacto() {
                                 </Link>
                         </label>
                     </div>
-                    <button type="submit" className='contact-text_form-submit'>
+                    <md-filled-button type="submit" className='contact-text_form-submit'>
                         Enviar mensaje
-                    </button>
+                    </md-filled-button>
                 </form>
             </div>
         </section>
@@ -216,9 +216,11 @@ function Contacto() {
                     <p className='sectAdd-address_links-p'>
                         614 278 073
                     </p>
-                    <button className='sectAdd-address_links-btn'>
-                        <a href="https://maps.app.goo.gl/SZDsLjan8uCMw6q86">Ver en Google Maps</a>
-                    </button>
+                    <div className='sectAdd-address_links-btn'>
+                        <md-outlined-button>
+                            <a href="https://maps.app.goo.gl/SZDsLjan8uCMw6q86">Ver en Google Maps</a>
+                        </md-outlined-button>
+                    </div>
                 </div>
             </div>
         </section>

@@ -9,6 +9,7 @@ import Privacidad from './Privacidad.jsx'
 import Aviso from './Aviso.jsx'
 import Cookies from './Cookies.jsx'
 import Main from './Main.jsx'
+import Terminos from "./Terminos.jsx";
 
 
 function App() {
@@ -19,9 +20,7 @@ function App() {
         <Route path='/' element={ <Main/> }/>
         <Route path='/sobre-mi' element={ <MasSobreMi/> }/>
         <Route path='/contacto' element={ <Contacto/> }/>
-        <Route path='/terminos-legales-privacidad' element={ <Privacidad/> }/>
-        <Route path='/aviso-legal' element={ <Aviso/> }/>
-        <Route path='/cookies' element={ <Cookies/> }/>
+        <Route path='/terminos-legales-privacidad' element={ <Terminos/> }/>
       </Routes>
       <Cta/>
       <Footer/>

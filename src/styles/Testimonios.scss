@@ -5,6 +5,7 @@
 
     &-h2{
         font: var(--h2-xs-font);
+        color: var(--grey03);
         text-align: center;
         margin-bottom: 16px;
     }
@@ -35,6 +36,7 @@
 
                 &_name{
                     font: var(--h3-xs-font);
+                    color: var(--grey03);
                     text-align: center;
 
                 }
@@ -45,6 +47,7 @@
 
             &-text{
                 font: var(--p1-xs-font);
+                color: var(--grey03);
                 text-align: center;
             }
         }

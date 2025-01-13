@@ -40,7 +40,8 @@
                 align-items: flex-start;
                 width: 100%;
                 gap: 16px;
-                font: var(--p2-md);  
+                font: var(--p2-md);
+                color: var(--grey03);  
 
                 &_label{
                     font: var(--p1-xs-font);
@@ -151,26 +152,15 @@
             &-p{
 
                 font: var(--p1-xs-font);
+                color: var(--grey03);
                 margin-bottom: 4px;
 
             }
 
             &-btn{
-                height: 40px;
+
                 width: 100%;
-                padding: 8px 16px;
                 margin-top: 16px;
-                border: 0.8px solid var(--primary);
-                border-radius: 4px;
-                background-color: transparent;
-                font: var(--md-btn);
-                text-align: center; 
-                a:visited{
-                    color: var(--primary);
-                } 
-                a:-webkit-any-link {
-                    color: var(--primary);
-                }
             }
         }
 

@@ -17,9 +17,9 @@ function Terapia() {
         <p className='terapia-text'>
             A través de la terapia, puedes desbloquear tu potencial, desarrollar habilidades emocionales y alcanzar un equilibrio mental y emocional que te permita vivir de manera más plena y consciente. No estás solo en este proceso, la terapia te acompaña en cada paso hacia tu bienestar.
         </p>
-        <button className='terapia-btn'>
+        <md-filled-button>
           <Link to="/contacto">Contacta conmigo</Link>
-        </button>
+        </md-filled-button>
     </section>
   )
 }
