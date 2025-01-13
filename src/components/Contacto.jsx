@@ -217,8 +217,8 @@ function Contacto() {
                         614 278 073
                     </p>
                     <div className='sectAdd-address_links-btn'>
-                        <md-outlined-button>
-                            <a href="https://maps.app.goo.gl/SZDsLjan8uCMw6q86">Ver en Google Maps</a>
+                        <md-outlined-button href="https://maps.app.goo.gl/SZDsLjan8uCMw6q86" target='_blank'>
+                            Ver en Google Maps
                         </md-outlined-button>
                     </div>
                 </div>

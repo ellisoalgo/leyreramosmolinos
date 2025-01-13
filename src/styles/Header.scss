@@ -60,6 +60,10 @@
                         color: var(--grey02);
                     }
 
+                    a:-webkit-any-link{
+                        color: var(--grey02);
+                    }
+
                     &:hover{
                         text-decoration: underline;
                     }

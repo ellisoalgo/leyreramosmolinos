@@ -10,8 +10,8 @@ function Cta() {
           <p className='cta-p'><em className='cta-em'> oportunidades</em></p>
           <p className='cta-p'> de crecimiento</p>
           <div className='cta-btn'>
-            <md-filled-button>
-              <a href="https://calendly.com/leyreramospsico" target="_blank">Reserva tu cita</a>
+            <md-filled-button href="https://calendly.com/leyreramospsico" target="_blank">
+              Reserva tu cita
             </md-filled-button>
           </div>
         </div>

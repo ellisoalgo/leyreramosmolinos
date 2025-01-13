@@ -14,9 +14,12 @@ function Sobremi() {
       <p className='sobreMi-text'>
         Cada día, aprendo de mis pacientes y me apasiona ver cómo, a través de la terapia, logran transformar sus vidas y construir vínculos más sanos.
       </p>
-      <md-outlined-button>
-        <Link to='/sobre-mi'>Más información</Link>
-      </md-outlined-button>
+      <Link to='/sobre-mi' className='sobreMi-link'>
+        <md-outlined-button>
+          Más información
+        </md-outlined-button>
+      </Link> 
+      
     </section>
   )
 }

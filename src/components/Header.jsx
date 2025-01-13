@@ -44,8 +44,8 @@ function Header() {
                   </button>
                 </li>
               </ul>
-              <md-outlined-button>
-                <a href='https://calendly.com/leyreramospsico' target="_blank">Reserva tu cita</a>
+              <md-outlined-button href='https://calendly.com/leyreramospsico' target="_blank">
+                Reserva tu cita
               </md-outlined-button>
             </div>
         </nav>
