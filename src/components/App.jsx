@@ -14,7 +14,7 @@ import Terminos from "./Terminos.jsx";
 
 function App() {
   return (
-    <body className="body">
+    <div className="body">
       <Header/>
       <Routes>
         <Route path='/' element={ <Main/> }/>
@@ -24,7 +24,7 @@ function App() {
       </Routes>
       <Cta/>
       <Footer/>
-    </body>
+    </div>
   )
 }
 
