@@ -28,6 +28,8 @@
             height: 138px;
             background-color: var(--base);
             padding: 24px 16px;
+            box-shadow: var(--box-shadow-img);
+            transition: border 0.2s linear;
 
             &.active{
                 border: double 2px var(--primary)

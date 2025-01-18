@@ -47,13 +47,17 @@ function Footer() {
         </div>
         <div className='footer-socials'>
             <p className='footer-socials_title'>Leyre Ramos Molinos | Psicóloga clínica | 2024</p>
-            {/* <a href="" className='footer-socials_insta'>
-                <img src="" alt="instagram logo" />
-            </a> */}
-            <div className='footer-socials_icon'>
-                <a href=""  className='footer-socials_icon_linkedin' target="_blank">
-                    <img src={Linkedin} alt="linkedin logo" />
-                </a>
+            <div className='footer-socials_icons'>
+                <div className='footer-socials_icons-icon'>
+                    <a href="" className='footer-socials_insta' target='_blank'>
+                        <img src="" alt="insta" />
+                    </a>
+                </div>
+                <div className='footer-socials_icons-icon'>
+                    <a href=""  className='footer-socials_icon_linkedin' target="_blank">
+                        <img src={Linkedin} alt="linkedin logo" />
+                    </a>
+                </div>
             </div>
         </div>
     </footer>

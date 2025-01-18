@@ -63,12 +63,17 @@
                     font: var(--link-xs-font);
                     color: var(--grey01);
                     text-align: center;
-                    text-decoration: none;
+                    border-bottom: transparent ;
+                    transition: 1s all ease;
+                    
                     a:visited{
                         color: var(--grey01);
                     }
+                    a:-webkit-any-link{
+                        color: var(--grey01);
+                    }
                     a:hover{
-                        text-decoration: underline;
+                        border-bottom: solid 1px var(--grey01);
                     }
                 }
             }
@@ -93,16 +98,25 @@
 
         }
 
-        &_icon{
-            height: 40px;
-            width: 40px;
-            background-color: var(--grey03);
-            border-radius: 4px;
-            padding: 13px 12px;
+        &_icons{
+
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            gap: 8px;
+            justify-content: flex-end;
+            align-self: flex-end;
+
+            &-icon{
+
+                height: 40px;
+                width: 40px;
+                background-color: var(--grey03);
+                border-radius: 4px;
+                padding: 13px 12px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
         }
     }
 }

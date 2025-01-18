@@ -1,10 +1,11 @@
 import React from 'react'
 import { useState, useRef } from "react";
 import "../styles/Contacto.scss";
-import Hero from './Hero.jsx'
 import ContactXs from '../images/contact_xs.png'
 import { Link } from 'react-router-dom';
 import '@material/web/all.js';
+import Hero2 from './Hero2.jsx';
+import ContactXl from '../images/contacto_xl.svg';
 
 function Contacto() {
 
@@ -70,12 +71,14 @@ function Contacto() {
 
   return (
     <>
-        <Hero/>
+        <Hero2/>
         <section className='contact'>
-            <img src={ContactXs} alt="" className='contact-img'/>
+            <img src={ContactXl} alt="" className='contact-img'/>
             <div className='contact-text'>
-                <h2 className='contact-text_title'>Contacta conmigo</h2>
-                <p className='contact-text_text'>Estoy aquí para escucharte. Si tienes preguntas o necesitas más información, no dudes en escribirme.</p>
+                <div className='contact-text_titles'>
+                    <h2 className='contact-text_titles_title'>Contacta conmigo</h2>
+                    <p className='contact-text_titles_text'>Estoy aquí para escucharte. Si tienes preguntas o necesitas más información, no dudes en escribirme.</p>
+                </div>
                 <form className='contact-text_form' onSubmit={handleSubmit}>
                     <div className='contact-text_form-field'>
                         <md-outlined-text-field 
@@ -165,7 +168,7 @@ function Contacto() {
                         </div>
                     ) : null}
                     <div className='contact-text_form-field'>
-                        <label for="msj" className='contact-text_form-field_label'>Mensaje:</label>
+                        <label for="msj" className='contact-text_form-field_label'>Escribe tu mensaje:</label>
                         <md-outlined-text-field 
                             ref={refs.msj}
                             type='textarea'
@@ -203,7 +206,8 @@ function Contacto() {
         <section className='sectAdd'>
             <div className='sectAdd-address'>
                 <div className='sectAdd-address_map'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.9475792527232!2d2.1785136756994787!3d41.39694477129869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2e11321961f%3A0x3828506ad0233f59!2sCarrer%20de%20Casp%2C%20172%2C%202%C2%BA%2C%20A%2C%20L&#39;Eixample%2C%2008013%20Barcelona!5e0!3m2!1sen!2ses!4v1736264321838!5m2!1sen!2ses" width="256" height="256" style={{ border: "0", borderRadius: "16px", width: "100%", height: "100%" }}allowFullScreen=""></iframe>
+                    <div className='sectAdd-address_map-wrapper'>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.9475792527232!2d2.1785136756994787!3d41.39694477129869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2e11321961f%3A0x3828506ad0233f59!2sCarrer%20de%20Casp%2C%20172%2C%202%C2%BA%2C%20A%2C%20L&#39;Eixample%2C%2008013%20Barcelona!5e0!3m2!1sen!2ses!4v1736264321838!5m2!1sen!2ses" allowFullScreen="" loading='lazy' className='sectAdd-address_map-wrapper-iframe'></iframe></div>
                 </div>
                 <div className='sectAdd-address_links'>
                     <h2 className='sectAdd-address_links-h2'>Cómo llegar</h2>

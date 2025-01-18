@@ -6,7 +6,10 @@ function Cta() {
   return (
     <section>
         <div className='cta'>
-          <p className='cta-p'>transformando <em className='cta-em'>conflictos</em>  en </p>
+          <p className='cta-p'>transformando </p>
+          <p className='cta-p'>
+            <em className='cta-em'>conflictos</em> en
+          </p>
           <p className='cta-p'><em className='cta-em'> oportunidades</em></p>
           <p className='cta-p'> de crecimiento</p>
           <div className='cta-btn'>

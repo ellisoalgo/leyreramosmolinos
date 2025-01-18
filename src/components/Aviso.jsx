@@ -9,15 +9,16 @@ function Aviso() {
       <section className='avisoLegal'>
         <h2 className='avisoLegal_h2'>Aviso Legal</h2>
         <h3 className='avisoLegal_h3'>Titular del Sitio Web</h3>
-        <p className='avisoLegal_p'>
-            Leyre Ramos Molinos
-        </p>
-        <a href="" className='avisoLegal_a'>
-          Carrer de Casp 172, 2º A, 08008 Barcelona, España.
-        </a>
-        <a href="mailto:psicoterapeutaleyre@outlook.com" className='avisoLegal_email'>
-          psicoterapeutaleyre@outlook.com
-        </a>
+        <div className='avisoLegal_responsable'>
+            <p className='avisoLegal_responsable-p'>
+              Leyre Ramos Molinos
+            </p>
+            <a href="https://maps.app.goo.gl/PMzpfPkZcyj9JkAi9" className='avisoLegal_responsable-address'>
+              Carrer de Casp 172, 2º A, 08008 Barcelona, España.</a>
+            <a href="mailto:psicoterapeutaleyre@outlook.com" className='avisoLegal_responsable-email'>
+              psicoterapeutaleyre@outlook.com
+            </a>
+        </div>
         <h3 className='avisoLegal_h3'>Objeto de la Web</h3>
         <p className='avisoLegal_p'>
             Este sitio tiene como objetivo proporcionar información sobre servicios de psicoterapia, responder a consultas y gestionar los servicios solicitados.

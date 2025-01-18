@@ -26,14 +26,16 @@ function Terminos() {
                     <>
                         <h2 className='politicaPrivacidad_h2'>Política de Privacidad</h2>
                         <h3 className='politicaPrivacidad_h3'>Responsable del Tratamiento</h3>
-                        <p className='politicaPrivacidad_p'>
-                            Leyre Ramos Molinos
-                        </p>
-                        <a href="https://maps.app.goo.gl/PMzpfPkZcyj9JkAi9" className='politicaPrivacidad_address'>
-                            Carrer de Casp 172, 2º A, 08008 Barcelona, España.</a>
-                        <a href="mailto:psicoterapeutaleyre@outlook.com" className='politicaPrivacidad_email'>
-                            psicoterapeutaleyre@outlook.com
-                        </a>
+                        <div className='politicaPrivacidad_responsable'>
+                            <p className='politicaPrivacidad_responsable-p'>
+                                Leyre Ramos Molinos
+                            </p>
+                            <a href="https://maps.app.goo.gl/PMzpfPkZcyj9JkAi9" className='politicaPrivacidad_responsable-address'>
+                                Carrer de Casp 172, 2º A, 08008 Barcelona, España.</a>
+                            <a href="mailto:psicoterapeutaleyre@outlook.com" className='politicaPrivacidad_responsable-email'>
+                                psicoterapeutaleyre@outlook.com
+                            </a>
+                        </div>
                         <h3 className='politicaPrivacidad_h3'>Finalidad del Tratamiento de los Datos Personales</h3>
                         <p className='politicaPrivacidad_p'>
                             Los datos personales proporcionados a través de este sitio web (Leyre Ramos Molinos, <a href="mailto:psicoterapeutaleyre@outlook.com" className='politicaPrivacidad_email'>psicoterapeutaleyre@outlook.com</a>) serán utilizados con el fin de responder a consultas y gestionar los servicios solicitados, de acuerdo con lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y la libre circulación de estos datos (Reglamento General de Protección de Datos o RGPD), y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).
@@ -57,15 +59,16 @@ function Terminos() {
                     <>
                         <h2 className='avisoLegal_h2'>Aviso Legal</h2>
                         <h3 className='avisoLegal_h3'>Titular del Sitio Web</h3>
-                        <p className='avisoLegal_p'>
+                        <div className='avisoLegal_responsable'>
+                            <p className='avisoLegal_responsable-p'>
                             Leyre Ramos Molinos
-                        </p>
-                        <a href="" className='avisoLegal_a'>
-                        Carrer de Casp 172, 2º A, 08008 Barcelona, España.
-                        </a>
-                        <a href="mailto:psicoterapeutaleyre@outlook.com" className='avisoLegal_email'>
-                        psicoterapeutaleyre@outlook.com
-                        </a>
+                            </p>
+                            <a href="https://maps.app.goo.gl/PMzpfPkZcyj9JkAi9" className='avisoLegal_responsable-address'>
+                            Carrer de Casp 172, 2º A, 08008 Barcelona, España.</a>
+                            <a href="mailto:psicoterapeutaleyre@outlook.com" className='avisoLegal_responsable-email'>
+                            psicoterapeutaleyre@outlook.com
+                            </a>
+                        </div>
                         <h3 className='avisoLegal_h3'>Objeto de la Web</h3>
                         <p className='avisoLegal_p'>
                             Este sitio tiene como objetivo proporcionar información sobre servicios de psicoterapia, responder a consultas y gestionar los servicios solicitados.

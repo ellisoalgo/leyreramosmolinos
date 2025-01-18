@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Terapia.scss";
 import { Link } from "react-router-dom";
-import TerapiaImg from '../images/terapia_xs.png'
+import TerapiaImg from '../images/terapia_xl.svg'
 
 function Terapia() {
   return (

@@ -34,19 +34,16 @@
     &-imgs{
         padding-top: 24px;
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        // justify-content: space-between;
+        align-items: flex-end;
         min-width: 342px;
 
 
-        &_1, &_2{
+        &_2{
             height: 100px;
             width: 143px;
-        }
-
-        &_1{
-            transform: scaleX(-1);
-            opacity: 0;
+            align-self: flex-end;
+            margin-right: -16px;
         }
 
     }

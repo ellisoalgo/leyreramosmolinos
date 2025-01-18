@@ -15,6 +15,41 @@
         color: var(--grey03);
     }
 
+    &_responsable{
+
+        display: flex;
+        flex-direction: column;
+
+    
+        
+        &-p{
+            font: var(--p1-xs-font);
+            color: var(--grey03);
+        }
+    
+        &-address{
+            font: var(--p1-xs-font);
+            color: var(--primary);
+    
+            a:visited{
+                color: var(--primary);
+            }
+        }
+
+        &-email{
+            font: var(--p1-xs-font);
+            color: var(--primary);
+            text-decoration: underline;
+    
+            a:visited{
+                color: var(--primary);
+            }
+            a:-webkit-any-link{
+                color: var(--primary);
+            }
+        }
+    }
+
     &_p{
         font: var(--p1-xs-font);
         color: var(--grey03);
@@ -27,6 +62,9 @@
         a:visited{
             color: var(--primary);
         }
+        a:-webkit-any-link{
+            color: var(--primary);
+        }
     }
 
     &_email{
@@ -37,5 +75,10 @@
         a:visited{
             color: var(--primary);
         }
+        a:-webkit-any-link{
+            color: var(--primary);
+        }
     }
+
+    
 }
