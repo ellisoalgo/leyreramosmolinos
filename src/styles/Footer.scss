@@ -8,20 +8,22 @@
         flex-direction: column;
         align-items: center;
         gap: 16px;
+
+        .hidden{
+            display: none;
+        }
     
         &-logo{
-
             height: 40px;
         }
     
         &-add{
-    
             display: flex;
             flex-direction: column;
             align-items: center;
+            
     
             &_title{
-
                 font: var(--h4-xs-font);
                 text-align: center;
                 color: var(--base);
@@ -29,7 +31,6 @@
             }
     
             &_links{
-    
                 font: var(--link-xs-font);
                 color: var(--grey01);
                 text-align: center;
@@ -50,7 +51,6 @@
         &-nav{
     
             &_title{
-
                 font: var(--h4-xs-font);
                 text-align: center;
                 color: var(--base);
@@ -59,7 +59,6 @@
             &_list{
     
                 &-item{
-
                     font: var(--link-xs-font);
                     color: var(--grey01);
                     text-align: center;
@@ -103,7 +102,7 @@
             display: flex;
             gap: 8px;
             justify-content: flex-end;
-            align-self: flex-end;
+            
 
             &-icon{
 
@@ -116,6 +115,70 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+            
+    .footer{
+
+        &-info{
+            padding: 48px 24px;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            &-logo2{
+                width: 168px;
+            }
+
+            &-add{
+               align-items: flex-start;
+               width: 260px;
+
+               &_title{
+                font: var(--h4-xs-font);
+               }
+
+               &_links{
+                text-align: left;
+                font: var(--h4-xs-font);
+                font-weight: 400;
+                line-height: 38px;
+               }
+            }
+
+            &-nav{
+                
+                width: 168px;
+                
+                &_title{
+                    text-align: left;
+                    font: var(--h4-xs-font);
+                }
+
+                &_list{
+
+                    &-item{
+                        text-align: left;
+                        font: var(--h4-xs-font);
+                        font-weight: 400;
+                        line-height: 38px;
+                    }
+                    
+                }
+            }
+        }
+
+        &-socials{
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 24px 24px;
+
+            &_title{
+                font-size: 14px;
             }
         }
     }

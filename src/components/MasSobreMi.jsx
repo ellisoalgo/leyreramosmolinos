@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/MasSobreMi.scss";
 import AboutXs from '../images/about_xs.svg'
+import AboutXl from '../images/about_xl.svg'
 import Hero2 from './Hero2.jsx';
 
 function MasSobreMi() {
@@ -13,6 +14,7 @@ function MasSobreMi() {
               <h3 className='about-head-subtitle'>Cada historia es única, y cada paso hacia el bienestar es un triunfo que celebro junto a mis pacientes.</h3>
             </div>
             <img src={AboutXs} alt="" className='about-img'/>
+            <img src={AboutXl} alt="" className='about-img2'/>
             <div className='about-text'>
               <p >
                   Desde que tengo memoria, he sentido una profunda curiosidad por el mundo interior de las personas. La psicología ha sido para mí un camino natural y vocacional, una forma de dedicarme a lo que más me llena: ayudar a los demás a encontrar su equilibrio, sanar y crecer.

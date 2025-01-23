@@ -1,14 +1,36 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import "../styles/Footer.scss";
 import { Link } from "react-router-dom";
 import LogoWhiteXs from '../images/logo-white-xs.svg'
+import LogoWhiteXl from '../images/logo-white-xl.svg'
 import Linkedin from '../images/LinkedIn.svg'
+import Instagram from '../images/Instagram.svg'
 
 function Footer() {
+
+    const [isWideScreen, setIsWideScreen] = useState(false)
+
+    useEffect(() => {
+        const checkScreenWidth = () => {
+          setIsWideScreen(window.innerWidth > 768)
+        }
+    
+        // Check on initial render
+        checkScreenWidth()
+    
+        // Add event listener for window resize
+        window.addEventListener("resize", checkScreenWidth)
+    
+        // Cleanup
+        return () => window.removeEventListener("resize", checkScreenWidth)
+    }, [])
+
+
   return (
     <footer className='footer'>
         <div className='footer-info'>
-            <img src={LogoWhiteXs} alt="logo LRM pscioterapeuta" className='footer-info-logo'/>
+            <img src={LogoWhiteXs} alt="logo LRM pscioterapeuta" className={`footer-info-logo ${isWideScreen ? "hidden" : ""}`}/>
+            <img src={LogoWhiteXl} alt="logo LRM pscioterapeuta" className={`footer-info-logo2 ${isWideScreen ? "" : "hidden"}`}/>
             <div className='footer-info-add'>
                 <p className='footer-info-add_title'>
                     Dirección
@@ -17,7 +39,7 @@ function Footer() {
                     <ul>
                         <li>
                             <a href="https://maps.app.goo.gl/SZDsLjan8uCMw6q86" className='footer-info-add_links-address' target="_blank">
-                                Carrer de Casp 172, 2º A,
+                                Carrer de Casp 172, 2º A, <br/>
                                 08008 Barcelona, España.
                             </a>
                         </li>
@@ -49,12 +71,12 @@ function Footer() {
             <p className='footer-socials_title'>Leyre Ramos Molinos | Psicóloga clínica | 2024</p>
             <div className='footer-socials_icons'>
                 <div className='footer-socials_icons-icon'>
-                    <a href="" className='footer-socials_insta' target='_blank'>
-                        <img src="" alt="insta" />
+                    <a href="https://www.instagram.com/leyreramospsico/" className='footer-socials_insta' target='_blank'>
+                        <img src={Instagram} alt="insta" />
                     </a>
                 </div>
                 <div className='footer-socials_icons-icon'>
-                    <a href=""  className='footer-socials_icon_linkedin' target="_blank">
+                    <a href="https://www.linkedin.com/in/leyre-ramos-molinos-2b2733116/"  className='footer-socials_icon_linkedin' target="_blank">
                         <img src={Linkedin} alt="linkedin logo" />
                     </a>
                 </div>

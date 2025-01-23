@@ -8,12 +8,10 @@
     width: 100%;
 
     &-h2{
-
         font: var(--h2-xs-font);
         color: var(--grey03);
         text-align: center;
         margin-bottom: 8px;
-
     }
 
     &-text{
@@ -24,7 +22,6 @@
     }
 
     &-card{
-
         margin-top: 16px;
         background-color: var(--base);
         width: 100%;
@@ -34,12 +31,12 @@
         flex-direction: column;
         align-items: center;
         box-shadow: var(--box-shadow-img);
-        
 
         &_h3{
             font: var(--h3-xs-font);
             color: var(--grey03);
             margin-bottom: 16px;
+            text-align: center;
         }
 
         &_text{
@@ -50,11 +47,9 @@
         }
 
         &_btn{
-
             width: 100%;
             
             &-link{
-
                 display: flex;
                 align-items: center;
                 gap: 8px;
@@ -67,8 +62,7 @@
                 }
 
                 &_icon{
-                height: 24px;
-
+                    height: 24px;
                 }
 
                 &_text{
@@ -76,10 +70,46 @@
                     text-align: center;
                     a:visited{
                     color: var(--base);
-                }
+                    }
                 }
             }
         }
-
     }
+}
+
+@media screen and (min-width: 768px){
+    .reserva{
+        padding: 56px 24px;
+
+        &-cards{
+            display: flex;
+            gap: 24px;
+            width: 100%;
+        }
+
+        &-card{
+            width: 100%;
+            align-items: flex-start;
+            justify-content: space-between;
+            
+            &_h3{
+                text-align: left;
+                height: 28px;
+            }
+
+            &_text{
+                text-align: left;
+            }
+
+            &_btn{
+                width: 100%;
+                justify-self: flex-end;
+
+                & md-filled-button{
+                    width: 100%;
+                }
+            }
+        }  
+    }
+
 }

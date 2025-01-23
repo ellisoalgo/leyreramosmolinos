@@ -12,14 +12,14 @@
         text-decoration: var(--h1-xs-text-decoration);
         text-align: center;
         color: var(--grey03);
-        height: 48px;
+        // height: 48px;
     }
 
     &-text{
         font: var(--p1-xs-font);
         text-align: center;
         color: var(--grey03);
-        height: 40px;
+        // height: 40px;
     }
 
     &-btn{
@@ -31,20 +31,28 @@
         width: 100%;
     }
 
-    &-imgs{
-        padding-top: 24px;
-        display: flex;
-        // justify-content: space-between;
-        align-items: flex-end;
-        min-width: 342px;
+    &-img{
+        align-self: flex-end;
+        justify-content: flex-end;
+        width: 143px;
+        margin-right: -16px;
+    }
+}
 
+@media screen and (min-width: 768px) {
+    .hero{
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 120px 0 64px 0;
+    }
+    .hero-btn{
+        flex-direction: row;
+        justify-content: center;
+    }
 
-        &_2{
-            height: 100px;
-            width: 143px;
-            align-self: flex-end;
-            margin-right: -16px;
-        }
-
+    .hero-img{
+        padding: 0;
+        margin: 0;
+        width: 193px;
     }
 }
