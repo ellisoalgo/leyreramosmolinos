@@ -38,7 +38,7 @@
         color: var(--grey03);
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 8px;
     }
 }
 
@@ -75,7 +75,7 @@
             flex-direction: column;
             flex-wrap: wrap;
             height: 400px;
-            width: 50%;
+            width: calc(50% - 8px);
             column-gap: 16px;
             text-wrap: wrap;
             align-items: flex-start;
