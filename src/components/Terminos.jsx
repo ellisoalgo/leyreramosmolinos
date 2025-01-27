@@ -107,26 +107,28 @@ function Terminos() {
         <section className='terminos'>
             <div className='terminos_group'>
                 <h1 className='terminos_group-h1'>Términos Legales y Privacidad</h1>
-                <button
-                    className={`terminos_group_gr ${activeLink === 'privacy' ? 'active' : ''}`} onClick={() => handleLinkClick('privacy')}
-                >
-                    <img src={PoliticaXs} alt="" className='terminos_group_gr-img'/>
-                    <h3 className='terminos_group_gr-h3'>Política de Privacidad</h3>
-                </button>
-                <button
-                    className={`terminos_group_gr ${activeLink === 'legal' ? 'active' : ''}`}
-                    onClick={() => handleLinkClick('legal')}
-                >
-                    <img src={AvisoXs} alt="" className='terminos_group_gr-img'/>
-                    <h3 className='terminos_group_gr-h3'>Aviso legal</h3>
-                </button>
-                <button
-                    className={`terminos_group_gr ${activeLink === 'cookies' ? 'active' : ''}`}
-                    onClick={() => handleLinkClick('cookies')}
-                >
-                    <img src={CookiesXs} alt="" className='terminos_group_gr-img'/>
-                    <h3 className='terminos_group_gr-h3'>Política de Cookies</h3>
-                </button>
+                <div className='terminos_group-btns'>
+                    <button
+                        className={`terminos_group_gr ${activeLink === 'privacy' ? 'active' : ''}`} onClick={() => handleLinkClick('privacy')}
+                    >
+                        <img src={PoliticaXs} alt="" className='terminos_group_gr-img'/>
+                        <h3 className='terminos_group_gr-h3'>Política de Privacidad</h3>
+                    </button>
+                    <button
+                        className={`terminos_group_gr ${activeLink === 'legal' ? 'active' : ''}`}
+                        onClick={() => handleLinkClick('legal')}
+                    >
+                        <img src={AvisoXs} alt="" className='terminos_group_gr-img'/>
+                        <h3 className='terminos_group_gr-h3'>Aviso legal</h3>
+                    </button>
+                    <button
+                        className={`terminos_group_gr ${activeLink === 'cookies' ? 'active' : ''}`}
+                        onClick={() => handleLinkClick('cookies')}
+                    >
+                        <img src={CookiesXs} alt="" className='terminos_group_gr-img'/>
+                        <h3 className='terminos_group_gr-h3'>Política de Cookies</h3>
+                    </button>
+                </div>
             </div>
             <div className="content">{renderContent()}</div>
         </section>

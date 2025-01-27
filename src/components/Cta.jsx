@@ -8,7 +8,7 @@ function Cta() {
 
   useEffect(() => {
     const checkScreenWidth = () => {
-      setIsWideScreen(window.innerWidth > 768)
+      setIsWideScreen(window.innerWidth > 767)
     }
 
     // Check on initial render

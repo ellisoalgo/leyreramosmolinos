@@ -23,7 +23,10 @@
 
         &_titles{
 
-            
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
             &_title{
                 font: var(--h2-xs-font);
                 color: var(--grey03);
@@ -206,4 +209,32 @@
 
 .textArea{
     height: 112px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .contact{
+        padding: 56px 24px;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 16px;
+        
+        &-img{
+            width: 260px;
+        }
+
+        &-text{
+
+            margin-top: -8px;
+        }
+    }
+
+    .sectAdd{
+
+        padding:  56px 24px;
+
+        &-address{
+            flex-direction: row-reverse;
+        }
+    }
 }
