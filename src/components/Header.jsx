@@ -9,7 +9,6 @@ import LogoXsBlack from '../images/logo-black-xs.svg'
 function Header() {
     
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const lottieRef = useRef(null);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
