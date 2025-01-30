@@ -11,7 +11,7 @@ function Reserva() {
         </p>
         <div className='reserva-cards'>
             <div className='reserva-card'>
-                <div>
+                <div className='cardText'>
                     <h3 className='reserva-card_h3'>Psicoterapia online</h3>
                     <p className='reserva-card_text'>Accede a la terapia desde la comodidad de tu hogar. Apto para personas que prefieren sesiones a distancia.</p>
                 </div>

@@ -1,51 +1,66 @@
 .footer{
 
+    background-color: var(--grey03);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
     &-info{
 
-        background-color: var(--grey03);
+        width: 100%;
         padding: 48px 16px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 16px;
 
-        .hidden{
-            display: none;
-        }
-    
-        &-logo{
-            height: 40px;
-        }
-    
-        &-add{
+        &_gr{
+
             display: flex;
             flex-direction: column;
             align-items: center;
-            
-    
-            &_title{
-                font: var(--h4-xs-font);
-                text-align: center;
-                color: var(--base);
-    
+            gap: 16px;
+
+            &-logo{
+                height: 40px;
             }
-    
-            &_links{
-                font: var(--link-xs-font);
-                color: var(--grey01);
-                text-align: center;
-                text-decoration: none;
-                a:-webkit-any-link{
+        
+            &-add{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+        
+                &_title{
+                    font: var(--h4-xs-font);
+                    text-align: center;
+                    color: var(--base);
+        
+                }
+        
+                &_links{
+                    font: var(--link-xs-font);
                     color: var(--grey01);
+                    text-align: center;
+                    text-decoration: none;
+                    a:-webkit-any-link{
+                        color: var(--grey01);
+                    }
+                    a:visited{
+                        color: var(--grey01);
+                    }
+                    a:hover{
+                        text-decoration: underline;
+                    }
+        
                 }
-                a:visited{
-                    color: var(--grey01);
-                }
-                a:hover{
-                    text-decoration: underline;
-                }
-    
-            }
+
+        }
+
+        .hidden{
+            display: none;
+        }
         }
     
         &-nav{
@@ -82,12 +97,17 @@
 
     &-socials{
 
-        padding: 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 16px;
+        width: 100%;
         background-color: var(--grey04);
+        padding: 16px;
+        
+        &_socials{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+        
 
         &_title{
 
@@ -123,31 +143,41 @@
 @media screen and (min-width: 768px){
             
     .footer{
+        
 
         &-info{
+            max-width: 1000px;
             padding: 48px 24px;
+            width: 100%;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
 
-            &-logo2{
-                width: 168px;
-            }
+            &_gr{
+                width: 100%;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
 
-            &-add{
-               align-items: flex-start;
-               width: 260px;
+                &-logo2{
+                    width: 168px;
+                }
 
-               &_title{
-                font: var(--h4-xs-font);
-               }
+                &-add{
+                align-items: flex-start;
+                width: 260px;
 
-               &_links{
-                text-align: left;
-                font: var(--h4-xs-font);
-                font-weight: 400;
-                line-height: 38px;
-               }
+                    &_title{
+                        font: var(--h4-xs-font);
+                    }
+
+                    &_links{
+                        text-align: left;
+                        font: var(--h4-xs-font);
+                        font-weight: 400;
+                        line-height: 38px;
+                    }
+                }
             }
 
             &-nav{
@@ -173,12 +203,82 @@
         }
 
         &-socials{
-            flex-direction: row;
-            justify-content: space-between;
+            
             padding: 24px 24px;
+            
+            &_socials{
+                max-width: 1000px;
+                margin: auto;
+                flex-direction: row;
+                justify-content: space-between;
+                align-content: center;
+            }
 
             &_title{
                 font-size: 14px;
+                line-height: 21px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer{
+        width: 100%;
+
+        &-info{
+            padding: 56px 0 32px 0;
+            max-width: 1000px;
+            gap: 0;
+
+            &_gr{
+                gap: 64px;
+                justify-content: flex-start;
+
+                &-logo2{
+                    width: 242px;
+                }
+
+                &-add{
+
+                    &_title{
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+
+                    &_links{
+                        font-size: 14px;
+                        line-height: 38px;
+                    }
+                }
+            }
+
+            &-nav{
+
+                width: 242px;
+                
+                &_title{
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                &_list{
+
+                    &-item{
+                        font-size: 14px;
+                        line-height: 38px;
+                    }
+                }
+            }
+        }
+
+        &-socials{
+            
+            padding: 24px 0;
+            
+            &_socials{
+                max-width: 1000px;
+                margin: auto;
             }
         }
     }

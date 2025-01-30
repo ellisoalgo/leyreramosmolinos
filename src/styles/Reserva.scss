@@ -113,3 +113,53 @@
     }
 
 }
+
+@media screen and (min-width: 1440px) {
+    .reserva{
+
+        padding: 85px 0;
+
+        &-h2{
+            font-size: 48px;
+            line-height: 72px;
+        }
+
+        &-text{
+            font-size: 18px;
+            line-height: 27px;
+            margin-bottom: 24px;
+        }
+
+        &-cards{
+            max-width: 1000px;
+            
+        }
+
+        &-card{
+            margin: 0;
+            padding: 32px;
+            gap: 24px;
+
+            &_h3{
+                font-size: 32px;
+                line-height: 40px;
+            }
+
+            &_text{
+                font-size: 18px;
+                line-height: 27px;
+                margin-bottom: 0;
+            }
+
+            .cardText{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            &_btn{
+                width: auto;
+            }
+        }
+    }
+}

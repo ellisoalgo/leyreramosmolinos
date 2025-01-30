@@ -7,6 +7,7 @@ import AnchaXs from '../images/ancha_xs.svg'
 function Hero() {
   return (
     <section className='hero'>
+        <img src={AnchaXs} alt="" className='hero-img2'/>
         <div className='hero-hero'>
           <h1 className='hero-h1'>Leyre Ramos Molinos</h1>
           <p className='hero-text'>Psicoterapeuta especializada en terapia sexual y de pareja</p>

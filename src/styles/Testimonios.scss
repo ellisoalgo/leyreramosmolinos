@@ -1,6 +1,6 @@
 .test{
 
-    padding: 48px 16px;
+    padding: 85px 0;
     
 
     &-h2{
@@ -13,9 +13,8 @@
     &-carrousel{
         padding-top: 16px;
         display: flex;
+        flex-wrap: wrap;
         gap: 16px;
-        overflow-x: scroll;
-        overflow-y: hidden;
 
 
         &_card{

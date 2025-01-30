@@ -63,41 +63,6 @@ function Testimonios() {
                 </div>
                 <p className='test-carrousel_card-text'>Me hace sentir muy cómoda y me gusta mucho su trato, es una gran profesional :)</p>
             </div>
-            <div className='test-carrousel_card'>
-                <div className='test-carrousel_card-block'>
-                    <h4 className='test-carrousel_card-block_name'>Marta S</h4>
-                    <img src={Star} alt="" className='test-carrousel_card-block_img'/>
-                </div>
-                <p className='test-carrousel_card-text'>Llevamos muy poquito con Leyre, pero su entusiasmo y su entrega nos ha conquistado. Hay mucho trabajo por delante pero, estoy convencida que con Leyre todo irá bien. Gracias Leyre.</p>
-            </div>
-            <div className='test-carrousel_card'>
-                <div className='test-carrousel_card-block'>
-                    <h4 className='test-carrousel_card-block_name'>Marta PS</h4>
-                    <img src={Star} alt="" className='test-carrousel_card-block_img'/>
-                </div>
-                <p className='test-carrousel_card-text'>Muy cómoda y contenta. Es la primera vez que acudía a una psicóloga y me he sentido escuchada y comprendida. Con ganas de la siguiente sesión para poder ir mejorando personalmente.</p>
-            </div>
-            <div className='test-carrousel_card'>
-                <div className='test-carrousel_card-block'>
-                    <h4 className='test-carrousel_card-block_name'>Laura</h4>
-                    <img src={Star} alt="" className='test-carrousel_card-block_img'/>
-                </div>
-                <p className='test-carrousel_card-text'>Leyre está siendo una gran ayuda para mí. Siempre está ahí para escucharme y entender lo que estoy pasando. Me ha ayudado a ver las cosas de otra manera y a crecer como persona. Si estás buscando a alguien que te guíe, ella es la indicada.</p>
-            </div>
-            <div className='test-carrousel_card'>
-                <div className='test-carrousel_card-block'>
-                    <h4 className='test-carrousel_card-block_name'>Carmen</h4>
-                    <img src={Star} alt="" className='test-carrousel_card-block_img'/>
-                </div>
-                <p className='test-carrousel_card-text'>En los momentos más difíciles de estrés y ansiedad, la orientación experta y el apoyo compasivo de Leyre han sido cruciales. Gracias por ayudarme tanto</p>
-            </div>
-            <div className='test-carrousel_card'>
-                <div className='test-carrousel_card-block'>
-                    <h4 className='test-carrousel_card-block_name'>Pablo G</h4>
-                    <img src={Star} alt="" className='test-carrousel_card-block_img'/>
-                </div>
-                <p className='test-carrousel_card-text'>Leyre es una genia total. ¡Me hace sentir tan cómodo hablando de cualquier cosa! Me ayuda a entender mis líos mentales y siempre me da herramientas útiles para manejar el estrés y la ansiedad. Si estás en busca de alguien así, ¡no busques más!</p>
-            </div>
         </div>
     </section>
   )

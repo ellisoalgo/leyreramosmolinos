@@ -2,9 +2,13 @@
 
     padding: 48px 16px;
     background-color: var(--secondary);
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    
+
+    &-sect{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
 
     &-group{
         display: flex;
@@ -39,8 +43,11 @@
 @media screen and (min-width: 768px) {
     .terapia{
         padding: 56px 24px;
-        flex-direction: row;
-        gap: 24px;
+        
+        &-sect{
+            flex-direction: row;
+            gap: 24px;
+        }
 
         &-group{
             gap: 8px;
@@ -64,4 +71,41 @@
         width: fit-content;
         padding: 8px 16px;
     }
+}
+
+@media screen and (min-width: 1440px) {
+    .terapia{
+        padding: 85px 0;
+        display: flex;
+        justify-content: center;
+
+        &-sect{
+            max-width: 1000px;
+            gap: 64px;
+            align-items: center;
+        }
+
+        &-img{
+            height: 331px;
+            width: 331px;
+        }
+
+        &-group{}
+
+        &-h2{
+            font-size: 48px;
+            line-height: 72px;
+        }
+
+        &-par{
+            gap: 16px;
+        }
+        
+        &-text{
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+    
+    
 }

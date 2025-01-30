@@ -29,31 +29,33 @@ function Footer() {
   return (
     <footer className='footer'>
         <div className='footer-info'>
-            <img src={LogoWhiteXs} alt="logo LRM pscioterapeuta" className={`footer-info-logo ${isWideScreen ? "hidden" : ""}`}/>
-            <img src={LogoWhiteXl} alt="logo LRM pscioterapeuta" className={`footer-info-logo2 ${isWideScreen ? "" : "hidden"}`}/>
-            <div className='footer-info-add'>
-                <p className='footer-info-add_title'>
-                    Dirección
-                </p>
-                <div className='footer-info-add_links'>
-                    <ul>
-                        <li>
-                            <a href="https://maps.app.goo.gl/SZDsLjan8uCMw6q86" className='footer-info-add_links-address' target="_blank">
-                                Carrer de Casp 172, 2º A, <br/>
-                                08008 Barcelona, España.
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:psicoterapeutaleyre@outlook.com" className='footer-info-add_links-email' target="_blank">
-                                psicoterapeutaleyre@outlook.com
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:0034614278073" className='footer-info-add_links-phone' target="_blank">
-                                614 278 073
-                            </a>
-                        </li>
-                    </ul>
+            <div className='footer-info_gr'>
+                <img src={LogoWhiteXs} alt="logo LRM pscioterapeuta" className={`footer-info_gr-logo ${isWideScreen ? "hidden" : ""}`}/>
+                <img src={LogoWhiteXl} alt="logo LRM pscioterapeuta" className={`footer-info_gr-logo2 ${isWideScreen ? "" : "hidden"}`}/>
+                <div className='footer-info_gr-add'>
+                    <p className='footer-info_gr-add_title'>
+                        Dirección
+                    </p>
+                    <div className='footer-info_gr-add_links'>
+                        <ul>
+                            <li>
+                                <a href="https://maps.app.goo.gl/SZDsLjan8uCMw6q86" className='footer-info_gr-add_links-address' target="_blank">
+                                    Carrer de Casp 172, 2º A, <br/>
+                                    08008 Barcelona, España.
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:psicoterapeutaleyre@outlook.com" className='footer-info_gr-add_links-email' target="_blank">
+                                    psicoterapeutaleyre@outlook.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:0034614278073" className='footer-info_gr-add_links-phone' target="_blank">
+                                    614 278 073
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div className='footer-info-nav'>
@@ -68,17 +70,19 @@ function Footer() {
             </div>
         </div>
         <div className='footer-socials'>
-            <p className='footer-socials_title'>Leyre Ramos Molinos | Psicóloga clínica | 2024</p>
-            <div className='footer-socials_icons'>
-                <div className='footer-socials_icons-icon'>
-                    <a href="https://www.instagram.com/leyreramospsico/" className='footer-socials_insta' target='_blank'>
-                        <img src={Instagram} alt="insta" />
-                    </a>
-                </div>
-                <div className='footer-socials_icons-icon'>
-                    <a href="https://www.linkedin.com/in/leyre-ramos-molinos-2b2733116/"  className='footer-socials_icon_linkedin' target="_blank">
-                        <img src={Linkedin} alt="linkedin logo" />
-                    </a>
+            <div className='footer-socials_socials'>
+                <p className='footer-socials_title'>Leyre Ramos Molinos | Psicóloga clínica | 2024</p>
+                <div className='footer-socials_icons'>
+                    <div className='footer-socials_icons-icon'>
+                        <a href="https://www.instagram.com/leyreramospsico/" className='footer-socials_insta' target='_blank'>
+                            <img src={Instagram} alt="insta" />
+                        </a>
+                    </div>
+                    <div className='footer-socials_icons-icon'>
+                        <a href="https://www.linkedin.com/in/leyre-ramos-molinos-2b2733116/"  className='footer-socials_icon_linkedin' target="_blank">
+                            <img src={Linkedin} alt="linkedin logo" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,10 +1,14 @@
 .sobreMi{
     padding: 48px 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    width: 100%;
+
+    &-sect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        width: 100%;
+    }
+    
 
 
     &-img{
@@ -36,10 +40,14 @@
 @media screen and (min-width: 768px) {
     .sobreMi{
         padding: 56px 24px;
-        flex-direction: row-reverse;
-        gap: 24px;
-        align-items: flex-start;
-        justify-content: flex-start;
+
+        &-sect{
+            flex-direction: row-reverse;
+            gap: 24px;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        
 
         &-sobre{
             display: flex;
@@ -59,5 +67,38 @@
         &-img{
             width: 260px;
         }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .sobreMi{
+        padding: 85px 0;
+        display: flex;
+        justify-content: center;
+
+        &-sect{
+            max-width: 1000px;
+            gap: 64px;
+        }
+        
+        &-h2{
+            font-size: 48px;
+            line-height: 72px;
+        }
+
+        &-text{
+            font-size: 18px;
+            line-height: 27px;
+        }
+
+        &-link{
+            padding-top: 16px;
+        }
+
+        &-img{
+            height: 331px;
+            width: 331px;
+        }
+        
     }
 }

@@ -1,64 +1,67 @@
 .tipos{
 
-    padding: 48px 16px;
+    padding: 85px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
     &-h2{
         font: var(--h2-xs-font);
         color: var(--grey03);
         text-align: center;
-        height: 36px;
         margin-bottom: 16px;
+        font-size: 48px;
+        line-height: 72px;
+        height: fit-content;
     }
 
     &-cards{
+        max-width: 1000px;
         margin-bottom: 16px;
         display: flex;
-        gap: 16px;
-        overflow-x: scroll;
-        overflow-y: hidden;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 24px;
 
         &_card{
             flex-shrink: 0;
-            width: 288px;
-            border-radius: 16px;
+            width: calc(50% - 12px);
+            border-radius: 20px;
             background-color: var(--secondary);
-            padding: 24px 16px;
+            padding: 32px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
+            box-shadow: var(--box-shadow-img);
 
             
             .card-img{
-                height: 48px;
-                width: 48px;
+                height: 64px;
+                width: 64px;
                 background-color: var(--base);
                 border-radius: 16px;
                 padding: 8px;
-                margin-bottom: 16px;
+                margin-bottom: 14px;
             }
 
             .card-h3{
                 font: var(--h3-xs-font);
                 color: var(--grey03);
                 text-align: center;
-
+                font-size: 24px;
+                line-height: 32px;
             }
 
             .card-text{
                 font: var(--p1-xs-font);
                 color: var(--grey03);
                 text-align: center;
+                font-size: 18px;
+                line-height: 27px;
             }
         }
     }
-}
-
-@media screen and (min-width: 768px) {
-
-    .tipos{
-        padding: 56px 24px;
-    }
-    
 }
