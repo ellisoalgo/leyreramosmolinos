@@ -214,8 +214,12 @@
 @media screen and (min-width: 768px) {
     
     .contact{
+        max-width: 1000px;
+        width: 100%;
         padding: 56px 24px;
+        margin: auto;
         flex-direction: row;
+        justify-content: space-between;
         align-items: flex-start;
         gap: 16px;
         
@@ -224,8 +228,18 @@
         }
 
         &-text{
-
             margin-top: -8px;
+
+            &_titles{
+
+                &_title{
+                    height: min-content;
+                }
+            }
+
+            &_form{
+                width: 100%;
+            }
         }
     }
 
@@ -234,8 +248,74 @@
         padding:  56px 24px;
 
         &-address{
+            max-width: 1000px;
             flex-direction: row-reverse;
             align-items: flex-start;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .contact{
+
+        padding: 85px 0;
+        margin: auto;
+        gap: 64px;
+
+        &-img{
+            width: 331px;
+            height: 331px;
+            min-width: 331px;
+            min-height: 331px;
+        }
+
+        &-text{
+            margin: 0;
+            
+            &_titles{
+                gap: 8px;
+
+                &_title{
+                    font-size: 48px;
+                    line-height: 72px;
+                }
+
+                &_text{
+                    font-size: 18px;
+                    line-height: 27px;
+                }
+            }
+        }
+    }
+    .sectAdd{
+        padding: 85px 0;
+
+        &-address{
+            max-width: 1000px;
+            padding: 40px;
+            gap: 24px;
+
+            &_map{
+                height: 331px;
+            }
+
+            &_links{
+
+                &-h2{
+                    font-size: 48px;
+                    line-height: 72px;
+                }
+
+                &-p{
+                    font-size: 18px;
+                    line-height: 27px;
+                    margin: 0;
+                }
+
+                &-btn{
+                    margin-top: 24px;
+                }
+            }
         }
     }
 }

@@ -19,4 +19,27 @@
         font: var(--p1-xs-font);
         color: var(--grey03);
     }
+
+    @media screen and (min-width:1440px) {
+
+        gap:0;
+
+        &_h2{
+            font-size: 48px;
+            line-height: 72px;
+        }
+
+        &_h3{
+            font-size: 32px;
+            line-height: 40px;
+            padding-top: 24px;  
+        }
+
+        &_p{
+            font-size: 18px;
+            line-height: 27px;
+            padding-top: 8px;
+        }
+    }
 }
+

@@ -74,17 +74,63 @@
     
     .terminos{
 
+        width: 100%;
+
         &_group{
             padding: 120px 24px 56px 24px;
 
             &-btns{
                 flex-direction: row;
                 gap: 16px;
+                max-width: 1000px;
             }
         }
     }
 
     .content{
         padding: 56px 24px;
+        max-width: 1000px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .terminos{
+        &_group{
+            padding: 170px 0 85px 0;
+            gap: 24px;
+
+            &-h1{
+                font-size: 48px;
+                line-height: 72px;
+            }
+
+            &-btns{
+                max-width: 1000px;
+                gap: 24px;
+            }
+
+            &_gr{
+                padding: 32px;
+                height: inherit;
+                gap: 24px;
+
+                &-img{
+                    height: 64px;
+                    width: 64px;
+                }
+
+                &-h3{
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+    .content{
+        padding: 85px 0;
+        max-width: 1000px;
+        margin: auto;
+        gap: 0;
     }
 }

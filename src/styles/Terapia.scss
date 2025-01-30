@@ -45,6 +45,8 @@
         padding: 56px 24px;
         
         &-sect{
+            max-width: 1000px;
+            margin: auto;
             flex-direction: row;
             gap: 24px;
         }
