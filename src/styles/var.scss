@@ -119,6 +119,7 @@ md-filled-button {
     --md-sys-color-primary: var(--primary);
     --md-sys-color-on-primary: var(--base);
     width: 100%;
+    padding: 8px 16px;
 
     a:visited{
         color: var(--base);
@@ -130,7 +131,7 @@ md-filled-button {
 
     // @media screen and (min-width: 768px) {
     //     width: fit-content;
-    //     padding: 8px 16px;
+    //     
     // }
 }
 
@@ -144,6 +145,7 @@ md-outlined-button {
     --md-outlined-button-label-text-color: var(--primary);
     --md-outlined-button-container-height: 40px;
     width: 100%;
+    padding: 8px 16px;
     
     a:visited{
         color: var(--primary);
@@ -153,8 +155,8 @@ md-outlined-button {
         color: var(--primary);
     }
 
-    @media screen and (min-width: 768px) {
-        width: fit-content;
-        padding: 8px 16px;
-    }
+    // @media screen and (min-width: 768px) {
+    //     width: fit-content;
+    //     padding: 8px 16px;
+    // }
 }

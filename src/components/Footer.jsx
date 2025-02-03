@@ -30,8 +30,8 @@ function Footer() {
     <footer className='footer'>
         <div className='footer-info'>
             <div className='footer-info_gr'>
-                <img src={LogoWhiteXs} alt="logo LRM pscioterapeuta" className={`footer-info_gr-logo ${isWideScreen ? "hidden" : ""}`}/>
-                <img src={LogoWhiteXl} alt="logo LRM pscioterapeuta" className={`footer-info_gr-logo2 ${isWideScreen ? "" : "hidden"}`}/>
+                <Link to="/" className={`${isWideScreen ? "hidden" : ""}`}><img src={LogoWhiteXs} alt="logo LRM pscioterapeuta" className={`footer-info_gr-logo ${isWideScreen ? "hidden" : ""}`}/></Link>
+                <Link to="/" className={`${isWideScreen ? "" : "hidden"}`}><img src={LogoWhiteXl} alt="logo LRM pscioterapeuta" className={`footer-info_gr-logo2 ${isWideScreen ? "" : "hidden"}`}/></Link>
                 <div className='footer-info_gr-add'>
                     <p className='footer-info_gr-add_title'>
                         Dirección
@@ -45,8 +45,8 @@ function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:psicoterapeutaleyre@outlook.com" className='footer-info_gr-add_links-email' target="_blank">
-                                    psicoterapeutaleyre@outlook.com
+                                <a href="mailto:hola@leyreramos.com" className='footer-info_gr-add_links-email' target="_blank">
+                                    hola@leyreramos.com
                                 </a>
                             </li>
                             <li>
@@ -71,15 +71,15 @@ function Footer() {
         </div>
         <div className='footer-socials'>
             <div className='footer-socials_socials'>
-                <p className='footer-socials_title'>Leyre Ramos Molinos | Psicóloga clínica | 2024</p>
+                <p className='footer-socials_title'>Leyre Ramos Molinos | Psicóloga clínica | 2025</p>
                 <div className='footer-socials_icons'>
                     <div className='footer-socials_icons-icon'>
-                        <a href="https://www.instagram.com/leyreramospsico/" className='footer-socials_insta' target='_blank'>
+                        <a href="https://www.instagram.com/leyreramospsico/" className='footer-socials_icons-icon_insta' target='_blank'>
                             <img src={Instagram} alt="insta" />
                         </a>
                     </div>
                     <div className='footer-socials_icons-icon'>
-                        <a href="https://www.linkedin.com/in/leyre-ramos-molinos-2b2733116/"  className='footer-socials_icon_linkedin' target="_blank">
+                        <a href="https://www.linkedin.com/in/leyre-ramos-molinos-2b2733116/"  className='footer-socials_icons-icon_linkedin' target="_blank">
                             <img src={Linkedin} alt="linkedin logo" />
                         </a>
                     </div>

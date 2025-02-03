@@ -1,0 +1,125 @@
+.ctaSection {
+  padding: 48px 0;
+  width: 100%;
+  display: grid;
+  grid-template-rows: min-content 77px;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 32px;
+}
+.ctaSection .hidden {
+  display: none;
+}
+.ctaSection-img1 {
+  transform: scaleX(-1);
+  height: 77px;
+  justify-self: start;
+  flex: none;
+}
+.ctaSection-cta1 {
+  grid-row: 1;
+  grid-column: 1/3;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 16px;
+}
+.ctaSection-cta1-p {
+  font-family: Baskerville;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: 400;
+  font-variant: small-caps;
+  color: var(--grey03);
+}
+.ctaSection-cta1-em {
+  font-family: Baskerville;
+  text-align: center;
+  font-variant: normal;
+  font-size: 34px;
+  line-height: 32px;
+  color: var(--grey03);
+}
+.ctaSection-cta1-btn {
+  display: flex;
+  padding-top: 16px;
+  width: 100%;
+}
+.ctaSection-img2 {
+  height: 77px;
+  justify-self: end;
+}
+
+@media screen and (min-width: 768px) {
+  .ctaSection {
+    padding: 85px 0;
+    display: grid;
+    grid-template-rows: 127px;
+    grid-template-columns: 180px 1fr 180px;
+  }
+  .ctaSection-img1 {
+    grid-column: 1;
+    height: 127px;
+  }
+  .ctaSection-cta1 {
+    display: none;
+  }
+  .ctaSection-cta2 {
+    grid-column: 2;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ctaSection-cta2-p {
+    font-family: Baskerville;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 400;
+    font-variant: small-caps;
+    color: var(--grey03);
+  }
+  .ctaSection-cta2-em {
+    font-family: Baskerville;
+    text-align: center;
+    font-variant: normal;
+    font-size: 34px;
+    line-height: 32px;
+    color: var(--grey03);
+  }
+  .ctaSection-cta2-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    width: 100%;
+  }
+  .ctaSection-img2 {
+    grid-column: 3;
+    height: 127px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .ctaSection {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px;
+    align-items: center;
+  }
+  .ctaSection-img1, .ctaSection-img2 {
+    height: 200px;
+  }
+  .ctaSection-cta2-p {
+    font-size: 56px;
+    line-height: 64.6px;
+  }
+  .ctaSection-cta2-em {
+    font-size: 59px;
+    line-height: 64.6px;
+  }
+  .ctaSection-cta2-btn {
+    padding-top: 24px;
+  }
+}/*# sourceMappingURL=Cta.css.map */

@@ -1,0 +1,45 @@
+.test {
+  padding: 85px 0;
+}
+.test-h2 {
+  font: var(--h2-xs-font);
+  color: var(--grey03);
+  text-align: center;
+  margin-bottom: 16px;
+}
+.test-carrousel {
+  padding-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.test-carrousel_card {
+  flex-shrink: 0;
+  width: 288px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--secondary);
+  border-radius: 16px;
+  padding: 24px 16px;
+}
+.test-carrousel_card-block {
+  display: flex;
+  flex-direction: column-reverse;
+  border-bottom: 1px solid var(--primary);
+  padding-bottom: 16px;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.test-carrousel_card-block_name {
+  font: var(--h3-xs-font);
+  color: var(--grey03);
+  text-align: center;
+}
+.test-carrousel_card-block_img {
+  height: 40px;
+}
+.test-carrousel_card-text {
+  font: var(--p1-xs-font);
+  color: var(--grey03);
+  text-align: center;
+}/*# sourceMappingURL=Testimonios.css.map */

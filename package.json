@@ -11,10 +11,13 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@lottiefiles/dotlottie-react": "^0.12.1",
     "@material/web": "^2.2.0",
+    "emailjs-com": "^3.2.0",
     "embla-carousel-react": "^8.5.2",
     "embla-carousel-wheel-gestures": "^8.0.1",
+    "nodemailer": "^6.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.1.1",

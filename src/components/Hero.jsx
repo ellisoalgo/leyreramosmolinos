@@ -15,7 +15,7 @@ function Hero() {
             <md-filled-button href="https://calendly.com/leyreramospsico" target="_blank">
               Reserva tu cita
             </md-filled-button>
-            <HashLink smooth to="#tipos-de-terapia">
+            <HashLink smooth to="#tipos-de-terapia" className='hero-btn-btn2'>
               <md-outlined-button>
                 Explora las opciones
               </md-outlined-button>

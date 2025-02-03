@@ -9,7 +9,7 @@
     &-img{
         min-width: 288px;
         width: 100%;
-        border-radius: 24px;
+        border-radius: 16px;
         box-shadow: var(--box-shadow-img);
     }
 
@@ -29,7 +29,7 @@
             font: var(--h3-xs-font);
             color: var(--grey03);
             padding-top: 16px;
-
+            margin-bottom: 16px;
         }
     }
 

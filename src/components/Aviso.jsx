@@ -15,8 +15,8 @@ function Aviso() {
             </p>
             <a href="https://maps.app.goo.gl/PMzpfPkZcyj9JkAi9" className='avisoLegal_responsable-address'>
               Carrer de Casp 172, 2º A, 08008 Barcelona, España.</a>
-            <a href="mailto:psicoterapeutaleyre@outlook.com" className='avisoLegal_responsable-email'>
-              psicoterapeutaleyre@outlook.com
+            <a href="mailto:hola@leyreramos.com" className='avisoLegal_responsable-email'>
+              hola@leyreramos.com
             </a>
         </div>
         <h3 className='avisoLegal_h3'>Objeto de la Web</h3>

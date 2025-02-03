@@ -1,0 +1,138 @@
+.reserva {
+  padding: 48px 16px;
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.reserva-h2 {
+  font: var(--h2-xs-font);
+  color: var(--grey03);
+  text-align: center;
+  margin-bottom: 8px;
+}
+.reserva-text {
+  font: var(--p1-xs-font);
+  color: var(--grey03);
+  text-align: center;
+  margin-bottom: 16px;
+}
+.reserva-card {
+  margin-top: 16px;
+  background-color: var(--base);
+  width: 100%;
+  border-radius: 16px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: var(--box-shadow-img);
+}
+.reserva-card_h3 {
+  font: var(--h3-xs-font);
+  color: var(--grey03);
+  margin-bottom: 16px;
+  text-align: center;
+}
+.reserva-card_text {
+  font: var(--p1-xs-font);
+  color: var(--grey03);
+  text-align: center;
+  margin-bottom: 16px;
+}
+.reserva-card_btn {
+  width: 100%;
+}
+.reserva-card_btn-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  font: var(--md-btn);
+  color: var(--base);
+  text-align: center;
+}
+.reserva-card_btn-link a:visited {
+  color: var(--base);
+}
+.reserva-card_btn-link_icon {
+  height: 24px;
+}
+.reserva-card_btn-link_text {
+  font: var(--md-btn);
+  text-align: center;
+}
+.reserva-card_btn-link_text a:visited {
+  color: var(--base);
+}
+
+@media screen and (min-width: 768px) {
+  .reserva {
+    padding: 56px 24px;
+  }
+  .reserva-cards {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    max-width: 1000px;
+  }
+  .reserva-card {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .reserva-card_h3 {
+    text-align: left;
+    height: 28px;
+  }
+  .reserva-card_text {
+    text-align: left;
+  }
+  .reserva-card_btn {
+    width: 100%;
+    justify-self: flex-end;
+  }
+  .reserva-card_btn md-filled-button {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .reserva {
+    padding: 85px 0;
+  }
+  .reserva-h2 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+  .reserva-text {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 24px;
+  }
+  .reserva-cards {
+    max-width: 1000px;
+  }
+  .reserva-card {
+    margin: 0;
+    padding: 32px;
+    gap: 24px;
+  }
+  .reserva-card_h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .reserva-card_text {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0;
+  }
+  .reserva-card .cardText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .reserva-card_btn {
+    width: auto;
+  }
+}/*# sourceMappingURL=Reserva.css.map */

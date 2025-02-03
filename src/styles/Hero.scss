@@ -7,6 +7,10 @@
     overflow-x: hidden;
     width: 100%;
 
+    &-hero{
+        width: 100%;
+    }
+
     &-img2{
         display: none;
     }
@@ -16,7 +20,6 @@
         text-decoration: var(--h1-xs-text-decoration);
         text-align: center;
         color: var(--grey03);
-        // height: 48px;
     }
 
     &-text{
@@ -27,7 +30,6 @@
     }
 
     &-btn{
-
         display: flex;
         flex-direction: column;
         gap: 8px;

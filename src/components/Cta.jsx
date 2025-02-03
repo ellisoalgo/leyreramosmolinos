@@ -27,7 +27,7 @@ function Cta() {
         <div className={`ctaSection-cta1 ${isWideScreen ? "hidden" : ""}`}>
           <p className='ctaSection-cta1-p'>transformando </p>
           <p className='ctaSection-cta1-p'>
-            <em className='ctaSection-cta1-em'>conflictos</em> 
+            <em className='ctaSection-cta1-em'>conflictos </em> 
             en
           </p>
           <p className='ctaSection-cta1-p'>

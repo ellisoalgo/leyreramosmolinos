@@ -1,0 +1,89 @@
+.terapia {
+  padding: 48px 16px;
+  background-color: var(--secondary);
+}
+.terapia-sect {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.terapia-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.terapia-img {
+  border-radius: 16px;
+  box-shadow: var(--box-shadow-img);
+}
+.terapia-h2 {
+  padding-top: 16px;
+  font: var(--h2-xs-font);
+  color: var(--grey03);
+}
+.terapia-par {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.terapia-text {
+  font: var(--p1-xs-font);
+  color: var(--grey03);
+}
+
+@media screen and (min-width: 768px) {
+  .terapia {
+    padding: 56px 24px;
+  }
+  .terapia-sect {
+    max-width: 1000px;
+    margin: auto;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .terapia-group {
+    gap: 8px;
+  }
+  .terapia-img {
+    width: 260px;
+    height: 260px;
+  }
+  .terapia-h2 {
+    padding: 0;
+  }
+  .terapia-par {
+    margin-bottom: 16px;
+  }
+  md-filled-button {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 8px 16px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .terapia {
+    padding: 85px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .terapia-sect {
+    max-width: 1000px;
+    gap: 64px;
+    align-items: center;
+  }
+  .terapia-img {
+    height: 331px;
+    width: 331px;
+  }
+  .terapia-h2 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+  .terapia-par {
+    gap: 16px;
+  }
+  .terapia-text {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}/*# sourceMappingURL=Terapia.css.map */

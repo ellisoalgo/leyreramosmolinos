@@ -1,0 +1,87 @@
+.avisoLegal {
+  padding: 48px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.avisoLegal_h2 {
+  font: var(--h2-xs-font);
+  color: var(--grey03);
+}
+.avisoLegal_h3 {
+  font: var(--h3-xs-font);
+  color: var(--grey03);
+}
+.avisoLegal_responsable {
+  display: flex;
+  flex-direction: column;
+}
+.avisoLegal_responsable-p {
+  font: var(--p1-xs-font);
+  color: var(--grey03);
+}
+.avisoLegal_responsable-address {
+  font: var(--p1-xs-font);
+  color: var(--primary);
+}
+.avisoLegal_responsable-address a:visited {
+  color: var(--primary);
+}
+.avisoLegal_responsable-email {
+  font: var(--p1-xs-font);
+  color: var(--primary);
+  text-decoration: underline;
+}
+.avisoLegal_responsable-email a:visited {
+  color: var(--primary);
+}
+.avisoLegal_responsable-email a:-webkit-any-link {
+  color: var(--primary);
+}
+.avisoLegal_p {
+  font: var(--p1-xs-font);
+  color: var(--grey03);
+}
+.avisoLegal_a {
+  font: var(--p1-xs-font);
+  color: var(--primary);
+}
+.avisoLegal_a a:visited {
+  color: var(--primary);
+}
+.avisoLegal_email {
+  font: var(--p1-xs-font);
+  color: var(--primary);
+  text-decoration: underline;
+}
+.avisoLegal_email a:visited {
+  color: var(--primary);
+}
+@media screen and (min-width: 1440px) {
+  .avisoLegal {
+    gap: 0;
+  }
+  .avisoLegal_h2 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+  .avisoLegal_responsable-p {
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 8px;
+  }
+  .avisoLegal_responsable-address, .avisoLegal_responsable-email {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .avisoLegal_h3 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 24px;
+  }
+  .avisoLegal_p {
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 8px;
+  }
+}/*# sourceMappingURL=Aviso.css.map */

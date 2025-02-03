@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/Sobremi.scss";
 import LeyreXs from '../images/leyre_xs.png'
 import { Link } from 'react-router-dom';
-import LeyreXl from '../images/leyre_xl.svg'
+import LeyreXl from '../images/leyre_principal.png'
 
 function Sobremi() {
   return (

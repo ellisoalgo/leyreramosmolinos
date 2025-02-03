@@ -125,7 +125,6 @@
             
 
             &-icon{
-
                 height: 40px;
                 width: 40px;
                 background-color: var(--grey03);
@@ -135,7 +134,37 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: -3px;  // Extend 4px outside
+                    left: -3px; // Extend 4px outside
+                    right: -3px; // Extend 4px outside
+                    bottom: -3px; // Extend 4px outside
+                    border: 3px solid transparent;
+                    border-radius: 8px; // Increased to account for the outside position
+                    transition: border-color 0.5s ease;
+                }
+    
+                &:hover::after {
+                    border-color: var(--grey02);
+                }
+
+                &_insta, &_linkedin{
+                    width: inherit;
+                    height: inherit;
+                    display: flex;
+                    justify-content: center;
+
+                    & :hover{
+                        border: none;
+                    }
+                }
             }
+
+           
         }
     }
 }
@@ -158,6 +187,7 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: flex-start;
+                gap: 0;
 
                 &-logo2{
                     width: 168px;

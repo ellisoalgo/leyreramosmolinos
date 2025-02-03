@@ -15,6 +15,14 @@
         color: var(--grey03);
     }
 
+    &_h4{
+        font-family: Baskerville;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        color: var(--grey03);
+    }
+
     &_p{
         font: var(--p1-xs-font);
         color: var(--grey03);
@@ -33,6 +41,11 @@
             font-size: 32px;
             line-height: 40px;
             padding-top: 24px;  
+        }
+
+        &_h4{
+            font: var(--h2-xs-font);
+            padding-top: 16px;
         }
 
         &_p{

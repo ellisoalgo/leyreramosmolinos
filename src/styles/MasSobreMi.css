@@ -1,0 +1,100 @@
+.about {
+  padding: 48px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.about-img {
+  min-width: 288px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: var(--box-shadow-img);
+}
+.about .hidden {
+  display: none;
+}
+.about-head-title {
+  font: var(--h2-xs-font);
+  color: var(--grey03);
+}
+.about-head-subtitle {
+  font: var(--h3-xs-font);
+  color: var(--grey03);
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+.about-text {
+  font: var(--p1-xs-font);
+  color: var(--grey03);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 56px 24px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .about-img2 {
+    width: 100%;
+    border-radius: 16px;
+  }
+  .about-head {
+    align-self: flex-start;
+  }
+  .about-head-subtitle {
+    width: 468px;
+    text-wrap: wrap;
+  }
+  .about-textgroup {
+    max-width: 1000px;
+    width: 100%;
+  }
+  .about-text {
+    display: block;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+    max-height: 400px;
+    width: 100%;
+    overflow: auto;
+  }
+  .about-text p {
+    -moz-column-break-inside: avoid;
+         break-inside: avoid-column;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about {
+    padding: 85px 0;
+    gap: 0;
+  }
+  .about-head {
+    align-self: center;
+    width: 1000px;
+    margin-bottom: 64px;
+  }
+  .about-head-title {
+    font-size: 48px;
+    line-height: 72px;
+  }
+  .about-head-subtitle {
+    font-size: 32px;
+    line-height: 40px;
+    width: 681px;
+  }
+  .about-img2 {
+    max-width: 1000px;
+    margin-bottom: 24px;
+  }
+  .about-text p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 16px;
+  }
+}/*# sourceMappingURL=MasSobreMi.css.map */

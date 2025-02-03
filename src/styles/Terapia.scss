@@ -17,7 +17,7 @@
     }
 
     &-img{
-        border-radius: 24px;
+        border-radius: 16px;
         box-shadow: var(--box-shadow-img);
     }
 
@@ -36,7 +36,6 @@
     &-text{
         font: var(--p1-xs-font);
         color: var(--grey03);
-        //padding-top: 8px;
     }
 }
 

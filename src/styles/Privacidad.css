@@ -1,0 +1,98 @@
+.politicaPrivacidad {
+  padding: 48px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.politicaPrivacidad_h2 {
+  font: var(--h2-xs-font);
+  color: var(--grey03);
+}
+.politicaPrivacidad_h3 {
+  font: var(--h3-xs-font);
+  color: var(--grey03);
+}
+.politicaPrivacidad_responsable {
+  display: flex;
+  flex-direction: column;
+}
+.politicaPrivacidad_responsable-p {
+  font: var(--p1-xs-font);
+  color: var(--grey03);
+}
+.politicaPrivacidad_responsable-address {
+  font: var(--p1-xs-font);
+  color: var(--primary);
+  text-decoration: underline;
+}
+.politicaPrivacidad_responsable-address a:visited {
+  color: var(--primary);
+}
+.politicaPrivacidad_responsable-email {
+  font: var(--p1-xs-font);
+  color: var(--primary);
+  text-decoration: underline;
+}
+.politicaPrivacidad_responsable-email a:visited {
+  color: var(--primary);
+}
+.politicaPrivacidad_responsable-email a:-webkit-any-link {
+  color: var(--primary);
+}
+.politicaPrivacidad_p {
+  font: var(--p1-xs-font);
+  color: var(--grey03);
+}
+.politicaPrivacidad_address {
+  font: var(--p1-xs-font);
+  color: var(--primary);
+}
+.politicaPrivacidad_address a:visited {
+  color: var(--primary);
+}
+.politicaPrivacidad_address a:-webkit-any-link {
+  color: var(--primary);
+}
+.politicaPrivacidad_email {
+  font: var(--p1-xs-font);
+  color: var(--primary);
+  text-decoration: underline;
+}
+.politicaPrivacidad_email a:visited {
+  color: var(--primary);
+}
+.politicaPrivacidad_email a:-webkit-any-link {
+  color: var(--primary);
+}
+@media screen and (min-width: 1440px) {
+  .politicaPrivacidad {
+    gap: 0;
+  }
+  .politicaPrivacidad_h2 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+  .politicaPrivacidad_responsable-p {
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 8px;
+  }
+  .politicaPrivacidad_responsable-address, .politicaPrivacidad_responsable-email {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .politicaPrivacidad_h3 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 24px;
+  }
+  .politicaPrivacidad_p {
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 8px;
+  }
+  .politicaPrivacidad_address, .politicaPrivacidad_email {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}/*# sourceMappingURL=Privacidad.css.map */

@@ -32,13 +32,13 @@ function Terminos() {
                             </p>
                             <a href="https://maps.app.goo.gl/PMzpfPkZcyj9JkAi9" className='politicaPrivacidad_responsable-address'>
                                 Carrer de Casp 172, 2º A, 08008 Barcelona, España.</a>
-                            <a href="mailto:psicoterapeutaleyre@outlook.com" className='politicaPrivacidad_responsable-email'>
-                                psicoterapeutaleyre@outlook.com
+                            <a href="mailto:hola@leyreramos.com" className='politicaPrivacidad_responsable-email'>
+                                hola@leyreramos.com
                             </a>
                         </div>
                         <h3 className='politicaPrivacidad_h3'>Finalidad del Tratamiento de los Datos Personales</h3>
                         <p className='politicaPrivacidad_p'>
-                            Los datos personales proporcionados a través de este sitio web (Leyre Ramos Molinos, <a href="mailto:psicoterapeutaleyre@outlook.com" className='politicaPrivacidad_email'>psicoterapeutaleyre@outlook.com</a>) serán utilizados con el fin de responder a consultas y gestionar los servicios solicitados, de acuerdo con lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y la libre circulación de estos datos (Reglamento General de Protección de Datos o RGPD), y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).
+                            Los datos personales proporcionados a través de este sitio web (Leyre Ramos Molinos, <a href="mailto:hola@leyreramos.com" className='politicaPrivacidad_email'>hola@leyreramos.com</a>) serán utilizados con el fin de responder a consultas y gestionar los servicios solicitados, de acuerdo con lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y la libre circulación de estos datos (Reglamento General de Protección de Datos o RGPD), y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).
                         </p>
                         <h3 className='politicaPrivacidad_h3'>Legitimación para el Tratamiento de los Datos</h3>
                         <p className='politicaPrivacidad_p'>
@@ -50,7 +50,7 @@ function Terminos() {
                         </p>
                         <h3 className='politicaPrivacidad_h3'>Derechos de los Usuarios</h3>
                         <p className='politicaPrivacidad_p'>
-                            Los usuarios tienen derecho a acceder a sus datos, solicitar la rectificación de datos incorrectos, suprimir sus datos, limitar u oponerse a su tratamiento, y solicitar la portabilidad de sus datos, de acuerdo con el RGPD y la LOPDGDD. Para ejercer estos derechos, pueden enviar una solicitud a <a href="mailto:psicoterapeutaleyre@outlook.com" className='politicaPrivacidad_email'>psicoterapeutaleyre@outlook.com</a>.
+                            Los usuarios tienen derecho a acceder a sus datos, solicitar la rectificación de datos incorrectos, suprimir sus datos, limitar u oponerse a su tratamiento, y solicitar la portabilidad de sus datos, de acuerdo con el RGPD y la LOPDGDD. Para ejercer estos derechos, pueden enviar una solicitud a <a href="mailto:hola@leyreramos.com" className='politicaPrivacidad_email'>hola@leyreramos.com</a>.
                         </p>
                     </>
                 );
@@ -65,8 +65,8 @@ function Terminos() {
                             </p>
                             <a href="https://maps.app.goo.gl/PMzpfPkZcyj9JkAi9" className='avisoLegal_responsable-address'>
                             Carrer de Casp 172, 2º A, 08008 Barcelona, España.</a>
-                            <a href="mailto:psicoterapeutaleyre@outlook.com" className='avisoLegal_responsable-email'>
-                            psicoterapeutaleyre@outlook.com
+                            <a href="mailto:hola@leyreramos.com" className='avisoLegal_responsable-email'>
+                            hola@leyreramos.com
                             </a>
                         </div>
                         <h3 className='avisoLegal_h3'>Objeto de la Web</h3>
@@ -88,9 +88,16 @@ function Terminos() {
                             Este sitio web utiliza cookies para mejorar la experiencia de navegación y recopilar datos estadísticos anónimos sobre el uso del sitio. Las cookies son pequeños archivos de texto que el navegador almacena en el dispositivo del usuario.
                         </p>
                         <h3 className='cookies_h3'>Tipos de Cookies Utilizadas</h3>
-                        <p className='cookies_p'>
-                            {/* [Indica el tipo de cookies, por ejemplo, “cookies de análisis, cookies de sesión, cookies de funcionalidad…”].*/}
-                        </p> 
+                        <p className='cookies_p'>Las cookies pueden ser «persistentes» o «de sesión». Las cookies persistentes permanecen en su ordenador personal o dispositivo móvil cuando se desconecta, mientras que las cookies de sesión se eliminan en cuanto cierra su navegador web.</p>
+                        <p className='cookies_p'>Utilizamos tanto cookies de sesión como persistentes para los fines que se indican a continuación:</p>
+                                <p className='cookies_h4'>Cookies necesarias/esenciales</p>
+                                <p className='cookies_p'>Tipo: Cookies de sesión</p>
+                                <p className='cookies_p'>Administradas por: Nosotros</p>
+                                <p className='cookies_p'>Finalidad: Estas cookies son esenciales para proporcionarle los servicios disponibles a través del sitio web y para permitirle utilizar algunas de sus funciones. Ayudan a autenticar a los usuarios y a prevenir el uso fraudulento de las cuentas de usuario. Sin estas cookies, los servicios que ha solicitado no pueden proporcionarse, y solo utilizamos estas cookies para proporcionarle dichos servicios.</p>
+                                <p className='cookies_h4'>Cookies de funcionalidad</p>
+                                <p className='cookies_p'>Tipo: Cookies persistentes</p>
+                                <p className='cookies_p'>Administradas por: Nosotros</p>
+                                <p className='cookies_p'>Propósito: Estas Cookies nos permiten recordar las elecciones que Usted hace cuando utiliza el Sitio Web, como recordar sus datos de inicio de sesión o su preferencia de idioma. El propósito de estas Cookies es proporcionarle una experiencia más personal y evitar que tenga que volver a introducir sus preferencias cada vez que utilice el Sitio Web.</p>
                         <h3 className='cookies_h3'>Gestión de Cookies</h3>
                         <p className='cookies_p'>
                             El usuario puede configurar su navegador para rechazar las cookies o eliminarlas después de cada sesión. Este sitio cumple con el RGPD y la LSSI-CE, que exigen informar a los usuarios sobre el uso de cookies y la obtención de su consentimiento.

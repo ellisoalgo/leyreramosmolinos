@@ -1,0 +1,121 @@
+:root {
+  --primary: #89033E;
+  --primary-10: #89033E1A;
+  --primary-selected: #760230;
+  --base: #FFFFFF;
+  --base-10: #FFFFFF1A;
+  --secondary: #FDECF0;
+  --grey01: #9E9E9E;
+  --grey02: #383838;
+  --grey03: #222222;
+  --grey04: #000000;
+  --error: #B3261E;
+  --md-ref-typeface-brand: 400 16px/24px "Source Sans 3";
+  --md-ref-typeface-plain: 400 16px/24px "Source Sans 3";
+  --h1-xs-font: 400 32px/40px Baskerville;
+  --h1-xs-text-decoration: underline from-font none;
+  --h1-xs-text-align: left;
+  --h2-xs-font: 400 28px/36px Baskerville;
+  --h2-xs-text-decoration: underline from-font none;
+  --h2-xs-text-align: center;
+  --h3-xs-font: 400 22px/28px Baskerville;
+  --h3-xs-text-decoration: underline from-font none;
+  --h3-xs-text-align: center;
+  --h4-xs-font: 600 14px/20px "Source Sans 3";
+  --h4-xs-text-decoration: underline from-font none;
+  --h4-xs-text-align: left;
+  --p1-xs-font: 400 16px/24px "Source Sans 3";
+  --p1-xs-text-decoration: underline from-font none;
+  --p1-xs-text-align: center;
+  --p2-xs-font: 400 12px/16px "Source Sans 3";
+  --p2-xs-text-decoration: underline from-font none;
+  --p2-xs-text-align: left;
+  --link-xs-font: 400 12px/36px "Source Sans 3";
+  --link-xs-text-decoration: underline from-font none;
+  --link-xs-text-align: left;
+  --h1-md: ;
+  --h2-md: ;
+  --h3-md: ;
+  --h4-md: ;
+  --h5-md: ;
+  --p1-md: ;
+  --p2-md: 400 16px/24px "Source Sans 3";
+  --p3-md: ;
+  --link-md: ;
+  --md-btn: 500 16px/24px "Source Sans 3";
+  --md-ref-typeface-brand: var(--h1-xs-font);
+  --md-ref-typeface-plain: var(--p1-xs-font);
+  --mdc-theme-primary: var(--primary);
+  --md-sys-color-primary: var(--primary);
+  --md-filled-button-container-shape: 4px;
+  --md-filled-button-label-text-font: var(--md-btn);
+  --md-sys-color-primary: var(--primary);
+  --md-sys-color-on-primary: var(--base);
+  --h1-xl: ;
+  --h2-xl: ;
+  --h3-xl: ;
+  --h4-xl: ;
+  --h5-xl: ;
+  --p1-xl: ;
+  --p2-xl: ;
+  --p3-xl: ;
+  --link-xl: ;
+  /* height: 40px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--primary);
+  font: var(--md-btn);
+  color: var(--base);
+  text-align: center;         
+  a:visited{
+      color: var(--base);
+  } */
+  /* height: 40px;
+  padding: 8px 16px;
+  border: 0.8px solid var(--primary);
+  border-radius: 4px;
+  background-color: transparent;
+  font: var(--md-btn);
+  text-align: center; 
+  a:visited{
+      color: var(--primary);
+  } */
+  --box-shadow-img: 0 .7961918735236395px 2.3885756205709185px -.625px #0000000d, 0 2.414506143104518px 7.2435184293135535px -1.25px #0000000d, 0 6.382653521484461px 19.147960564453385px -1.875px #0000000d, 0 20px 60px -2.5px #0000000d;
+}
+
+md-filled-button {
+  --md-filled-button-label-text-font: "Source Sans 3", sans-serif;
+  --md-filled-button-label-text-size: 16px;
+  --md-filled-button-label-text-weight: 500;
+  --md-filled-button-container-shape: 4px;
+  --md-sys-color-primary: var(--primary);
+  --md-sys-color-on-primary: var(--base);
+  width: 100%;
+  padding: 8px 16px;
+}
+md-filled-button a:visited {
+  color: var(--base);
+}
+md-filled-button a:-webkit-any-link {
+  color: var(--base);
+}
+
+md-outlined-button {
+  --md-outlined-button-label-text-font: "Source Sans 3", sans-serif;
+  --md-outlined-button-label-text-size: 16px;
+  --md-outlined-button-label-text-weight: 500;
+  --md-outlined-button-outline-color: var(--primary);
+  --md-outlined-button-outline-width: 1px;
+  --md-outlined-button-container-shape: 4px;
+  --md-outlined-button-label-text-color: var(--primary);
+  --md-outlined-button-container-height: 40px;
+  width: 100%;
+  padding: 8px 16px;
+}
+md-outlined-button a:visited {
+  color: var(--primary);
+}
+md-outlined-button a:-webkit-any-link {
+  color: var(--primary);
+}/*# sourceMappingURL=var.css.map */
