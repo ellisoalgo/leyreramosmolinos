@@ -28,6 +28,7 @@
         &-address{
             font: var(--p1-xs-font);
             color: var(--primary);
+            text-decoration: underline;
     
             a:visited{
                 color: var(--primary);

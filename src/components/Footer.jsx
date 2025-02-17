@@ -73,16 +73,16 @@ function Footer() {
             <div className='footer-socials_socials'>
                 <p className='footer-socials_title'>Leyre Ramos Molinos | Psicóloga clínica | 2025</p>
                 <div className='footer-socials_icons'>
-                    <div className='footer-socials_icons-icon'>
-                        <a href="https://www.instagram.com/leyreramospsico/" className='footer-socials_icons-icon_insta' target='_blank'>
+                    <a href="https://www.instagram.com/leyreramospsico/" className='footer-socials_icons-icon_insta' target='_blank'>
+                        <div className='footer-socials_icons-icon'>
                             <img src={Instagram} alt="insta" />
-                        </a>
-                    </div>
-                    <div className='footer-socials_icons-icon'>
-                        <a href="https://www.linkedin.com/in/leyre-ramos-molinos-2b2733116/"  className='footer-socials_icons-icon_linkedin' target="_blank">
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/leyre-ramos-molinos-2b2733116/"  className='footer-socials_icons-icon_linkedin' target="_blank">
+                        <div className='footer-socials_icons-icon'>
                             <img src={Linkedin} alt="linkedin logo" />
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
